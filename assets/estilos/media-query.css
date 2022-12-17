@@ -1,0 +1,230 @@
+@charset "utf-8";
+
+/* Typical Device Breakpoints
+pequenas telas: até 600px
+celular: de 600px até 768px
+tablets: 768px até 992px
+desktops: 992px até 1200px
+grandes telas: acimda de 1200px
+*/ 
+
+
+  @media (max-width: 999px) {
+    body {
+      overflow-x: hidden;
+      
+    }
+    .nav-list {
+      position: absolute;
+      top: 6vh;
+      right: 0;
+      width: 50vw;
+      height: 92vh;
+      background: #e2e2e4;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in;
+      margin-top: 3vh;
+    }
+    .nav-list li {
+      margin-left: 0;
+      opacity: 0;
+    }
+    .mobile-menu {
+      display: block;
+    }
+  
+  
+  .nav-list.active {
+    transform: translateX(0);
+  }
+  
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-0px, 8px);
+  }
+  
+  .mobile-menu.active .line2 {
+    opacity: 0;
+  }
+  
+  .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-2px, -10px);
+  }
+}
+
+@media screen and (max-width: 600px){
+bio{
+  height: 202vh;
+}
+
+}
+
+@media screen and (max-width: 768px){
+
+         /* Animações */
+
+[data-anime] {
+  opacity: 0;
+  transition: .3s;
+}
+
+[data-anime = "bottom"] {
+  transform: translate3d(0px, 40px, 0px);
+  transition: .5s;
+}
+
+[data-anime].animate{
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+[data-anime = "left"] {
+  transform: translate3d(-40px, 0px, 0px);
+}
+
+[data-anime = "right"] {
+  transform: translate3d(40px, 0px, 0px);
+}
+
+
+nav{
+  height: 10vh;
+  padding: 0;
+
+}
+
+header a{
+  font-size: 5vw;
+}
+
+header{
+  position: fixed;
+  margin-top: -10vh;
+  z-index: 999;
+}
+
+.logo{
+  height: 7vh;
+  width: 22vw;
+
+}
+
+
+#chamada{
+  display: none;
+}
+
+/*Banner*/
+
+
+#chamada-mobile{
+  background-image: url('../imagens/banner-mobile.jpg');
+  height: 50vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: -1vh;
+}
+
+#tratamentos{
+  flex-direction: column;
+}
+
+#slider img{
+  width: 125%;
+  height: 264%;
+}
+
+.t-img{
+  width: 51vw;
+}
+
+.titulo{
+  font-size: 7vw;
+}
+
+.t-h3{
+  font-size: 3.5vw;
+}
+
+#clinica{
+  height: 60vh;
+}
+
+/*Bio*/
+
+#bio{
+  flex-direction: column;
+  height: 152vh;
+  align-items: center;
+  padding-top: 4vh;
+}
+
+#img-bio{
+  height: 32vh;
+}
+
+#h3-bio{
+  margin-top: 2vh;
+  font-size: 5vw;
+}
+.textos-bio{
+  align-content: center;
+  width: 77vw;
+}
+
+.li-bio{
+  width: 75vw;
+}
+
+/*Contato*/
+#contato{
+  height: 72vh;
+}
+#d-contato{
+   display: flex;
+   flex-direction: column;
+}
+#forms{
+  margin-left: 0;
+}
+.dados{
+  width: 60vw;
+}
+
+#submit{
+  width: 40vw;
+}
+
+#mapa{
+  width: 80vw;
+  height: 20vh;
+  margin-top: 38vh;
+}
+
+.t-contato{
+  font-size: 5vw;
+}
+
+#div-form{
+  display: none;
+}
+
+footer p {
+  font-size: 3.5vw;
+}
+
+} 
+
