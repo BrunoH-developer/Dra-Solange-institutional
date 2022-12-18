@@ -19,7 +19,7 @@ grandes telas: acimda de 1200px
       top: 6vh;
       right: 0;
       width: 50vw;
-      height: 92vh;
+      height: 80vh;
       background: #e2e2e4;
       flex-direction: column;
       align-items: center;
@@ -133,6 +133,10 @@ header{
 
 #t-div{
   margin-bottom: 10vh;
+}
+
+#relogio{
+  height: 2vh;
 }
 
 /*Banner*/
