@@ -100,6 +100,10 @@ main {
 
         /* Classes */
 
+.numbers{
+    text-decoration: none;
+}
+
 .titulos{
     color: rgba(60, 128, 133, 0.822);
     margin: auto;
@@ -237,7 +241,6 @@ main {
     max-height: 150px;
     position: relative;
     margin: auto;
-    margin-right: 40vw;
     margin-top: 12vh;
 }
 
