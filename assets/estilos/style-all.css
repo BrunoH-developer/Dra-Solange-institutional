@@ -421,6 +421,10 @@ footer a:hover{
     display: none;
 }
 
+#icones-mobile a{
+    border-bottom: none;
+}
+
 #cat-footer{
     display: flex;
     justify-content: center;
