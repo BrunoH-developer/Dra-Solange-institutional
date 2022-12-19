@@ -26,7 +26,7 @@ grandes telas: acimda de 1200px
       justify-content: space-around;
       transform: translateX(100%);
       transition: transform 0.3s ease-in;
-      margin-top: 3vh;
+      margin-top: 2vh;
     }
     .nav-list li {
       margin-left: 0;
@@ -142,10 +142,6 @@ header{
   height: 2vh;
 }
 
-#mapa{
-  width: 99vw;
-}
-
 #redes{
   display: none;
 }
@@ -172,6 +168,7 @@ header{
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: -2vh;
+  display: none;
 }
 
 #tratamentos{
@@ -243,8 +240,8 @@ header{
 }
 
 #mapa{
-  width: 80vw;
-  height: 20vh;
+  width: 99vw;
+  height: 25vh;
   margin-top: 38vh;
 }
 
