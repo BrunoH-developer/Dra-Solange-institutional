@@ -151,7 +151,6 @@ header{
   height: 50vh;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-top: -1vh;
 }
 
 #tratamentos{
@@ -170,6 +169,7 @@ header{
 
 .t-h3{
   font-size: 3.5vw;
+  margin-bottom: 8vh;
 }
 
 #clinica{
