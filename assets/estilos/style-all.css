@@ -39,7 +39,7 @@ a:hover {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: 500;
-    height: 3.5vw;
+    height: 2.5vw;
     padding-bottom: 1vh;
     
 }
@@ -54,7 +54,7 @@ header nav {
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     background: #e2e2e4;
-    height: 8vh;
+    height: 9vh;
     position: fixed;
     width: 100vw;
     border-bottom: solid 2px #b88a6c;
@@ -235,7 +235,7 @@ main {
         /* slider */
 
 #slider {
-    width: 80%;
+    width: 100%;
     max-width: 500px;
     height: 25vw;
     max-height: 150px;
@@ -247,8 +247,8 @@ main {
 #slider img{
     opacity: 0;
     position: absolute;
-    width: 132%;
-    height: 269%;
+    width: 100%;
+    height: 216%;
     object-fit: cover;
     transition: opacity 800ms;
     border-radius: 3px;
@@ -265,8 +265,8 @@ main {
 
 /* Bio */
 #bio{
-    padding-top: 12vh;
-    height: 64vh;
+    padding-top: 4vh;
+    
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;

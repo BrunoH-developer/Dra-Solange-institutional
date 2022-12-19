@@ -110,6 +110,10 @@ header a{
   font-size: 3.5vw;
 }
 
+header nav {
+  height: 7vh;
+}
+
 header{
   position: fixed;
   margin-top: -10vh;
@@ -117,8 +121,8 @@ header{
 }
 
 .logo{
-  height: 7vh;
-  width: 22vw;
+  height: 5vh;
+  width: 57vw;
 
 }
 
@@ -176,7 +180,7 @@ header{
 
 #bio{
   flex-direction: column;
-  height: 152vh;
+  
   align-items: center;
   padding-top: 4vh;
 }
