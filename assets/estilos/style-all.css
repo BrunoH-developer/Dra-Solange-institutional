@@ -18,6 +18,10 @@ body{
     padding-top: 10vh;
 }
 
+#banner-mobile{
+    display: none;
+}
+
         /* Header */
 
  header a {
@@ -139,6 +143,7 @@ main {
     background-repeat: no-repeat;
     background-position: bottom;
     background-attachment: fixed;
+    margin-bottom: 15vh;
 
 }
 
@@ -148,6 +153,7 @@ main {
     padding-top: 18vh;
     padding-left: 3vw;
     color: white;
+    
 }
 
 #first-p{
