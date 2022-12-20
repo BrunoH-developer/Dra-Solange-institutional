@@ -428,12 +428,23 @@ footer a:hover{
 /* Categorias Footer */
 
 #icones-mobile{
-    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 #icones-mobile a{
     border-bottom: none;
+    
+    
 }
+
+.d-icones{
+    margin-bottom: 5vh;
+  
+  }
 
 #cat-footer{
     display: flex;
@@ -508,6 +519,10 @@ footer a:hover{
 
 .numbers{
     border-bottom: none;
+}
+
+#redes{
+    display: none;
 }
 
 /* formulario 2 */

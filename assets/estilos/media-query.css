@@ -147,15 +147,11 @@ header{
 }
 
 #icones-mobile{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin-left: 15vw;
 }
 
 .d-icones{
-  margin-bottom: 5vh;
+
 
 }
 
