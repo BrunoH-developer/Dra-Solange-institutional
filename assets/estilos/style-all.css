@@ -284,6 +284,8 @@ main {
 #img-bio{
     height: 16vw;
     margin-right: 3vw;
+    border-radius: 50%;
+    box-shadow:0px 10px 50px rgba(0, 0, 0, 0.322);
 }
 
 .div-bio{
