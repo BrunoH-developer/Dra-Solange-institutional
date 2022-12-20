@@ -187,10 +187,12 @@ main {
     margin-bottom: 4vh;
     margin-top: 3vh;
     transition: margin-top 0.5s;
+    box-shadow:0px 10px 50px rgba(0, 0, 0, 0.445);
 }
 
 .t-div{
   margin: 5vw;
+
 }
 
 .t-h3{
