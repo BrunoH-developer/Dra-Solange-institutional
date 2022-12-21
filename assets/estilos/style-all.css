@@ -114,7 +114,7 @@ main {
     margin-top: 16vh;
     font-size: 2vw;
     border-bottom: solid 2px  #be987e;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     width: 12vw;
     cursor: pointer;
@@ -126,10 +126,10 @@ main {
     justify-content: center;
     color: rgba(60, 128, 133, 0.822);
     cursor: pointer;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2vw;
     align-items: center;
-    margin-top: 8vh;
+    margin-top: 10vh;
 }
 
 
