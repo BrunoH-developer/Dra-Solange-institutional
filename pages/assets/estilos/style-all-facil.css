@@ -11,16 +11,16 @@
     --bege: #b78665fb;
     --branco-body: #e2e2e4;
     --cinza: #727272; 
+    --branco-escuro: #e7e7e7
 
 }
 body{
     background-color: #e2e2e4;
     padding-top: 10vh;
+
 }
 
-#banner-mobile{
-    display: none;
-}
+
 
         /* Header */
 
@@ -68,14 +68,6 @@ header nav {
     
 }
 
-main {
-    background: url("bg.jpg") no-repeat center center;
-    background-size: contain;
-    height: 92vh;
-    overflow: hidden;
-
-}
-
 .nav-list {
     list-style: none;
     display: flex;
@@ -100,4 +92,91 @@ main {
     background:  rgba(60, 128, 133, 0.822);
     margin: 5px;
     transition: 0.3s;
+}
+
+/* Classes */
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: rgba(60, 128, 133, 0.822);
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+    align-items: center;
+    margin-top: 24vh;
+    margin-bottom: 4vh;
+}
+
+/* Tratamentos */
+
+#tratamentos{
+    height: 300vh;
+}
+
+.container-tratamentos{
+    display: flex;
+    height: 58vh;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7vh;
+}
+
+.d-tratamentos{
+    height: 54vh;
+    width: 17vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    background-color: var(--branco-escuro);
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: 5vh;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow:0px 2px 20px rgba(0, 0, 0, 0.281);
+    transition-duration: .3s;
+    border: solid 1px var(--azul);
+}
+
+.img-tratamentos{
+    width: 17vw;
+    height: 22vh;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.h-tratamentos{
+    color: var(--azul);
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+
+.p-tratamentos{
+    color: var(--cinza);
+    width: 14vw;
+    margin: auto;
+    height: 17vh;
+}
+
+.h2-tratamentos{
+    color: var(--azul);
+    margin-top: 5vh;
+    font-size: 1vw;
+    font-weight: lighter;
+    text-decoration: none;
+    
+}
+
+
+.d-tratamentos:hover{
+    margin-top: 0vh;
+    margin-bottom: vh;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+    transition: margin-top 0.5s;
+}
+
+.container-tratamentos a{
+    text-decoration: none;
 }

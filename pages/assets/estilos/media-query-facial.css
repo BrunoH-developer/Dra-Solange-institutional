@@ -124,4 +124,8 @@ header{
   height: 5vh;
 
 }
+
+.container-tratamentos{
+  flex-direction: column;
+}
 }

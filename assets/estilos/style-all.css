@@ -68,13 +68,7 @@ header nav {
     
 }
 
-main {
-    background: url("bg.jpg") no-repeat center center;
-    background-size: contain;
-    height: 92vh;
-    overflow: hidden;
 
-}
 
 .nav-list {
     list-style: none;
