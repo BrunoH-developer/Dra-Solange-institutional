@@ -118,6 +118,7 @@ header{
   position: fixed;
   margin-top: -10vh;
   z-index: 999;
+  
 }
 
 .logo{
@@ -127,5 +128,51 @@ header{
 
 .container-tratamentos{
   flex-direction: column;
+  height: 185vh;
+  justify-content: flex-start;
+  margin-bottom: none;
+}
+main{
+  height: 385vh;
+}
+.titulo{
+  margin-top: 5vh;
+  font-size: 6vw;
+}
+
+.d-tratamentos{
+  width: 70vw;
+  height: 60vh;
+  margin-bottom: 5vh;
+}
+
+.img-tratamentos{
+  width: 70vw;
+}
+
+.p-tratamentos{
+  width: 60vw;
+  height: 19vh;
+}
+
+.h2-tratamentos{
+  font-size: 4.5vw;
+  padding-bottom: 1vh;
+}
+
+#footer{
+  margin-top: 1vh;
+}
+
+#div-form{
+  display: none;
+}
+
+#icones-mobile{
+  margin-left: 15vw;
+}
+
+#relogio{
+  height: 4.5vw;
 }
 }
