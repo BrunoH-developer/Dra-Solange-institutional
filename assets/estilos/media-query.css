@@ -94,8 +94,12 @@ grandes telas: acimda de 1200px
   }
   
   .t-img{
-    height: 21vh;
-    width: 19vw;
+    height: 17vh;
+    width: 22vw;
+  }
+
+  main{
+    padding-top: 7vh;
   }
   
   .titulo{
@@ -103,15 +107,15 @@ grandes telas: acimda de 1200px
   }
   
   .t-h3{
-    font-size: 1.5;
+    font-size: 1.7vw;
   }
   
   #img-bio{
-    height: 22vw;
+    height: 26vw;
   }
   
   #h3-bio{
-    font-size: 2.1vw;
+    font-size: 3vw;
   }
   
   #t-contato{
