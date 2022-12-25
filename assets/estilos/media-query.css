@@ -66,6 +66,69 @@ grandes telas: acimda de 1200px
 
 
 }
+@media screen and (min-width:510px) and (max-width:768px){
+
+  #chamada{
+    display: none;
+  }
+
+  #banner-mobile{
+    display: none;
+  }
+
+  #first-p{
+    margin-top: 26vw;
+    font-size: 2.2vw;
+  }
+  
+  #second-p{
+    font-size: 2.2vw;
+  }
+  
+  .h1-chamada{
+    font-size: 4.5vw;
+  }
+  
+  .logo{
+    height: 5.4vw;
+  }
+  
+  .t-img{
+    height: 21vh;
+    width: 19vw;
+  }
+  
+  .titulo{
+    font-size: 4vw;
+  }
+  
+  .t-h3{
+    font-size: 1.5;
+  }
+  
+  #img-bio{
+    height: 22vw;
+  }
+  
+  #h3-bio{
+    font-size: 2.1vw;
+  }
+  
+  #t-contato{
+    font-size: 2.2vw;
+  }
+  
+  .dados{
+    height: 4.5vh;
+    width: 25vw;
+  }
+  
+  .dados2{
+    width: 23vw;
+  }
+  
+  
+}
 
 @media screen and (min-width:768px) and (max-width: 992px){
 #first-p{
@@ -123,7 +186,7 @@ grandes telas: acimda de 1200px
 
 }
 
-@media screen and (min-width:320px) and (max-width: 768px){
+@media screen and (min-width:320px) and (max-width: 510px){
 
          /* Animações */
 
