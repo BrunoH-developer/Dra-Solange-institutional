@@ -268,3 +268,9 @@ footer p {
 
 } 
 
+@media screen and (max-width: 992px){
+  #banner-mobile{
+    display: none;
+  }
+}
+
