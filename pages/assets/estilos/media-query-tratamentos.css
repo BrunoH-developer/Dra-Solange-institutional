@@ -178,7 +178,55 @@ main{
 }
 }
 
-@media screen and (min-width:768px) and (max-width: 999px){ /* Tablet grande */
+@media screen and (min-width:940px) and (max-width: 999px){
+.p-tratamentos{
+  width: 21vw;
+  height: 26vh;
+  font-size: 1.3vw;
+}
+
+.img-tratamentos{
+  width: 23vw;
+}
+
+.d-tratamentos{
+  width: 23vw;
+  height: 63vh;
+}
+
+.h-tratamentos{
+  font-size: 1.5vw;
+}
+
+.h2-tratamentos{
+  font-size: 1.7vw;
+
+}
+
+footer{
+  height: 63vh;
+}
+
+.logo{
+  height: 5vw;
+}
+
+.container-tratamentos{
+  margin-bottom: 17vh;
+}
+
+.titulo{
+  font-size: 3vw;
+  margin-bottom: 10vh;
+}
+
+header a {
+  font-size: 1.7vw;
+}
+
+}
+
+@media screen and (min-width:768px) and (max-width: 940px){ /* Tablet grande */
 
 .p-tratamentos{
   width: 25vw;
@@ -240,7 +288,7 @@ header a{
   font-size: 2vw;
 }
 }
-@media screen and (min-width:999px) and (max-width:1350px) {
+@media screen and (min-width:999px) and (max-width:1250px) {
   .p-tratamentos{
     width: 21vw;
     height: 26vh;
