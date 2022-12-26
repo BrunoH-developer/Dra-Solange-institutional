@@ -370,3 +370,52 @@ header a{
   }
 
 }
+
+@media screen and (min-width:1250px) and (max-width:1550px){
+  .d-tratamentos{
+    height: 60vh;
+    width: 20vw;
+  }
+
+  .img-tratamentos{
+    width: 20vw;
+  }
+
+  .p-tratamentos{
+    width: 19vw;
+    height: 23vh;
+  }
+
+  .h2-tratamentos{
+    font-size: 1.4vw;
+  }
+  
+  footer{
+    height: 60vh;
+  }
+}
+
+@media screen and (min-width:1250px) and (max-width:1880px){
+  .d-tratamentos{
+    height: 60vh;
+    width: 18vw;
+  }
+
+  .img-tratamentos{
+    width: 18vw;
+  }
+
+  .p-tratamentos{
+    width: 16vw;
+    height: 23vh;
+  }
+
+  .h2-tratamentos{
+    font-size: 1vw;
+  }
+
+  footer{
+    height: 65vh;
+  }
+
+}
