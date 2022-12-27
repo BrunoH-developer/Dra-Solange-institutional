@@ -419,3 +419,34 @@ header a{
   }
 
 }
+
+/* Celular deitado */
+
+@media screen and (min-width:769px) and (max-width:950px) and (min-height: 280px) and (max-height:400px){
+
+  header nav{
+    height: 14vh;
+  }
+  .d-tratamentos{
+    height: 86vh;
+  }
+
+  .container-tratamentos{
+    margin-bottom: 45vh;
+  }
+
+  .p-tratamentos{
+    height: 43vh;
+  }
+
+  footer{
+    height: 100vh;
+    margin-top: 70vh;
+  }
+
+  .titulo{
+    margin-bottom: 22vh;
+    font-size: 3.5vw;
+  }
+
+}
