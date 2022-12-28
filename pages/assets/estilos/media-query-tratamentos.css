@@ -183,7 +183,7 @@ main{
   .p-tratamentos{
     width: 40vw;
     height: 26vh;
-    font-size: 2.3vw;
+    font-size: 2vh;
   }
   
   .img-tratamentos{
@@ -218,7 +218,7 @@ main{
 .p-tratamentos{
   width: 21vw;
   height: 26vh;
-  font-size: 1.3vw;
+  font-size: 1.8vh;
 }
 
 .img-tratamentos{
@@ -267,7 +267,7 @@ header a {
 .p-tratamentos{
   width: 25vw;
   height: 26vh;
-  font-size: 1.7vw;
+  font-size: 1.8vh;
 }
 
 .img-tratamentos{
@@ -455,6 +455,7 @@ header a{
 
   .p-tratamentos{
     height: 43vh;
+    font-size: 4vh;
   }
 
   footer{
@@ -465,6 +466,10 @@ header a{
   .titulo{
     margin-bottom: 22vh;
     font-size: 3.5vw;
+  }
+
+  .logo{
+    height: 4.4vw;
   }
 
 }
