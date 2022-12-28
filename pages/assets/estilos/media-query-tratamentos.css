@@ -397,25 +397,30 @@ header a{
 
 @media screen and (min-width:1250px) and (max-width:1880px){
   .d-tratamentos{
-    height: 60vh;
-    width: 18vw;
+    height: 65vh;
+    width: 21vw;
   }
 
   .img-tratamentos{
-    width: 18vw;
+    width: 21vw;
   }
 
   .p-tratamentos{
     width: 16vw;
     height: 23vh;
+    font-size: 2vh;
   }
 
   .h2-tratamentos{
-    font-size: 1vw;
+    font-size: 1.5vw;
   }
 
   footer{
     height: 65vh;
+  }
+
+  .container-tratamentos{
+    margin-bottom: 20vh;
   }
 
 }
