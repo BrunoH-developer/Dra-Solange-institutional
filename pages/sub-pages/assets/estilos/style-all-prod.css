@@ -160,11 +160,22 @@ header nav {
 .p-one{
     width: 24vw;
     margin-top: 5vh;
-    font-size: 1.1vw;
-    color: rgb(85, 84, 84);
+    font-size: 1vw;
+    color: rgb(117, 115, 115);
     height: 27vh;
     text-align: left;
 }
+
+.p-especiais{
+    width: 24vw;
+    margin-top: 5vh;
+    font-size: 1vw;
+    color: rgb(117, 115, 115);
+    height: 33vh;
+    text-align: left;
+}
+
+
 
 #contato{
     display: flex;
@@ -173,10 +184,10 @@ header nav {
     color: white;
     justify-content: center;
     width: 15vw;
-    height: 5vh;
+    height: 4vh;
     border-radius: 50px;
     font-weight: bold;
-    
+    margin-top: 1vh;
     
 }
 

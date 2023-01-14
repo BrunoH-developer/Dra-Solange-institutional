@@ -63,14 +63,13 @@ grandes telas: acimda de 1200px
   .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-2px, -10px);
   }
+
+  #div-form{
+    display: none;
+  }
 }
 
-@media screen and (max-width: 600px){
-bio{
-  height: 202vh;
-}
 
-}
 
 @media screen and (max-width: 768px){
 
@@ -125,4 +124,64 @@ header{
   height: 5vh;
 
 }
+
+#container-one{
+  flex-direction: column ;
+  align-items: center;
 }
+}
+
+@media screen and (max-width: 350px){
+
+
+#container-one{
+  margin-top: 8vh;
+}
+
+.img-one{
+  width: 80vw;
+  height: 45vh;
+}
+
+.h1-one{
+  margin-top: 3vh;
+}
+
+.h2-one{
+  width: 67vw;
+  font-size: 6vw;
+  font-weight: 540;
+  
+}
+
+.p-one{
+  height: 32vh;
+  width: 90vw;
+  font-size: 5.3vw;
+}
+
+.p-especiais{
+  height: 65vh;
+  width: 95vw;
+  font-size: 5.3vw;
+}
+
+#contato{
+  width: 70vw;
+  height: 5vh;
+}
+
+.img-contato{
+  height: 5vw;
+}
+
+footer{
+  margin-top: 10vh;
+}
+
+}
+
+
+
+
+  
