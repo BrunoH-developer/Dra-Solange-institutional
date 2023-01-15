@@ -185,7 +185,7 @@ header a{
 
 }
 
-@media screen and (max-width: 535px){
+@media screen and (max-width: 600px){
 
 
   #container-one{
@@ -238,7 +238,65 @@ header a{
     font-size: 4vw;
   }
   
+}
+
+@media screen and (min-width:600px) and (max-width: 998px){
+
+
+  #container-one{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
   }
+  
+  .img-one{
+    width: 50vw;
+    height: 45vh;
+  }
+  
+  .h1-one{
+    margin-top: 3vh;
+    font-size: 3vh;
+  }
+  
+  .h2-one{
+    width: 40vw;
+    font-size: 4vw;
+    font-weight: 540;
+    
+  }
+  
+  .p-one{
+    height: 32vh;
+    width: 35vw;
+    font-size: 3.5vw;
+  }
+  
+  .p-especiais{
+    height: 40vh;
+    width: 35vw;
+    font-size: 3.5vw;
+  }
+  
+  #contato{
+    width: 37vw;
+    height: 5vh;
+  }
+  
+  .img-contato{
+    height: 3vw;
+  }
+  
+  footer{
+    margin-top: 10vh;
+  }
+  
+  header a{
+    font-size: 4vw;
+  }
+  
+  }
+
 
 
 
