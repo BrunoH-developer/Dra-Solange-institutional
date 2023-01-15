@@ -185,7 +185,7 @@ header a{
 
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 500px){
 
 
   #container-one{
@@ -199,6 +199,7 @@ header a{
   
   .h1-one{
     margin-top: 3vh;
+    font-size: 3vh;
   }
   
   .h2-one{
@@ -215,7 +216,7 @@ header a{
   }
   
   .p-especiais{
-    height: 65vh;
+    height: 75vh;
     width: 95vw;
     font-size: 5.3vw;
   }
