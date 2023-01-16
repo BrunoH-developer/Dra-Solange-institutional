@@ -182,6 +182,13 @@ footer{
 header a{
   font-size: 4vw;
 }
+.div-cat{
+  margin-right: 10vw;
+}
+
+#icones-mobile{
+  margin-left: 10vw;
+}
 
 }
 
@@ -210,7 +217,7 @@ header a{
   }
   
   .p-one{
-    height: 32vh;
+    height: 25vh;
     width: 80vw;
     font-size: 4.5vw;
   }
@@ -238,9 +245,16 @@ header a{
     font-size: 4vw;
   }
   
+  .div-cat{
+    margin-right: 4vw;
+  }
+
+  #icones-mobile{
+    margin-left: 4vw;
+  }
 }
 
-@media screen and (min-width:600px) and (max-width: 998px){
+@media screen and (min-width:600px) and (max-width: 770px){
 
 
   #container-one{
@@ -268,14 +282,14 @@ header a{
   
   .p-one{
     height: 32vh;
-    width: 35vw;
+    width: 43vw;
     font-size: 3.5vw;
   }
   
   .p-especiais{
-    height: 40vh;
-    width: 35vw;
-    font-size: 3.5vw;
+    height: 44vh;
+    width: 43vw;
+    font-size: 2.7vw;
   }
   
   #contato{
@@ -294,8 +308,87 @@ header a{
   header a{
     font-size: 4vw;
   }
+
+
+  #div-form{
+    display: flex;
+  }
+
+  .dados2{
+    width: 30vw;
+  }
   
   }
+
+  @media screen and (min-width:600px) and (max-width: 998px){
+
+
+    .logo{
+      height: 5.5vw;
+    }
+
+    #container-one{
+      display: flex;
+      flex-direction: row;
+      margin-top: 20vh;
+    }
+    
+    .img-one{
+      width: 50vw;
+      height: 45vh;
+    }
+    
+    .h1-one{
+      margin-top: 3vh;
+      font-size: 3vh;
+    }
+    
+    .h2-one{
+      width: 40vw;
+      font-size: 4vw;
+      font-weight: 540;
+      
+    }
+    
+    .p-one{
+      height: 32vh;
+      width: 36vw;
+      font-size: 2.9vw;
+    }
+    
+    .p-especiais{
+      height: 44vh;
+      width: 36vw;
+      font-size: 2.9vw;
+    }
+    
+    #contato{
+      width: 37vw;
+      height: 5vh;
+    }
+    
+    .img-contato{
+      height: 3vw;
+    }
+    
+    footer{
+      margin-top: 10vh;
+    }
+    
+    header a{
+      font-size: 4vw;
+    }
+  
+  
+    #div-form{
+      display: flex;
+    }
+  
+    .dados2{
+      width: 30vw;
+    }
+    
+    }
 
 
 
