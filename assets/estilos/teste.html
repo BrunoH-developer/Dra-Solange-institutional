@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="teste.css">
+</head>
+<body>
+
+    <div class="slider">
+        <div class="slide">
+          <img src="../imagens/clinica/clinica1.jpg" alt="Image 1">
+        </div>
+        <div class="slide">
+          <img src="../imagens/clinica/clinica2.jpg" alt="Image 2">
+        </div>
+        <div class="slide">
+          <img src="../imagens/clinica/clinica3.jpg" alt="Image 3">
+        </div>
+      </div>
+      
+      <button class="prev">Prev</button>
+      <button class="next">Next</button>
+
+      <script>
+        var slider = document.querySelector(".slider");
+var slides = document.querySelectorAll(".slide");
+var prevBtn = document.querySelector(".prev");
+var nextBtn = document.querySelector(".next");
+var currentSlide = 0;
+
+function showSlide(n) {
+  slides[currentSlide].classList.remove("active");
+  slides[n].classList.add("active");
+  currentSlide = n;
+}
+
+function prevSlide() {
+  showSlide((currentSlide - 1 + slides.length) % slides.length);
+}
+
+function nextSlide() {
+  showSlide((currentSlide + 1) % slides.length);
+}
+
+prevBtn.addEventListener("click", prevSlide);
+nextBtn.addEventListener("click", nextSlide);
+
+      </script>
+    
+</body>
+</html>
