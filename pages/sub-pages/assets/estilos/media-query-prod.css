@@ -200,26 +200,26 @@ header a{
   }
   
   .img-one{
-    width: 80vw;
-    height: 45vh;
+    width: 60vw;
+    height: 40vh;
   }
   
   .h1-one{
     margin-top: 3vh;
-    font-size: 3vh;
+    font-size: 3.4vh;
   }
   
   .h2-one{
-    width: 67vw;
-    font-size: 6vw;
+    width: 62vw;
+    font-size: 5vw;
     font-weight: 540;
     
   }
   
   .p-one{
-    height: 25vh;
+    height: 30vh;
     width: 80vw;
-    font-size: 4.5vw;
+    font-size: 4.3vw;
   }
   
   .p-especiais{
@@ -376,7 +376,7 @@ header a{
     }
     
     header a{
-      font-size: 2vw;
+      font-size: 2.5vw;
     }
   
   
@@ -393,26 +393,26 @@ header a{
     @media screen and (min-width:999px) and (max-width: 1200px){
     
     header a{
-      font-size: 1.8vw;
+      font-size: 1.6vw;
     }
     
     .logo{
-      height: 4.5vw;
+      height: 4.1vw;
     }
     
     .img-one{
-      width: 40vw;
+      width: 37vw;
       height: 45vh;
     }
 
     .p-one{
       font-size: 1.8vw;
       width: 33vw;
-      height: 28vh;
+      height: 35vh;
     }
 
     .h2-one{
-      font-size: 2.4vw;
+      font-size: 2vw;
       width: 28vw;
     }
 
@@ -458,6 +458,7 @@ header a{
 
       .p-one{
         font-size: 1.4vw;
+        height: 39vh;
       }
     }
 

@@ -10,6 +10,15 @@ grandes telas: acimda de 1200px
 
 
   @media (max-width: 999px) {
+
+    #desk{
+      width: 2vw;
+    }
+
+    #chamada-banner{
+      display: none;
+    }
+
     body {
       overflow-x: hidden;
       

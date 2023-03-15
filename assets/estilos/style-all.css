@@ -147,7 +147,7 @@ header nav {
     padding-top: 18vh;
     padding-left: 3vw;
     color: white;
-    
+    display: block;
 }
 
 #first-p{
@@ -564,4 +564,8 @@ footer a:hover{
 
 .msg2{
     padding-bottom: 40px;
+}
+
+#desk{
+    width: 1vw;
 }

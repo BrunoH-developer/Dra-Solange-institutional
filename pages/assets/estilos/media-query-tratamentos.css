@@ -107,7 +107,7 @@ nav{
 }
 
 header a{
-  font-size: 3.5vw;
+  font-size: 4vw;
 }
 
 header nav {
@@ -141,23 +141,23 @@ main{
 }
 
 .d-tratamentos{
-  width: 56vw;
+  width: 65vw;
   height: 62vh;
   margin-bottom: 5vh;
 }
 
 .img-tratamentos{
-  width: 56vw;
+  width: 65vw;
 }
 
 .p-tratamentos{
   width: 46vw;
   height: 24vh;
-  font-size: 2vh;
+  font-size: 1.8vh;
 }
 
 .h2-tratamentos{
-  font-size: 3.7vw;
+  font-size: 5vw;
   padding-bottom: 2vh;
 }
 
