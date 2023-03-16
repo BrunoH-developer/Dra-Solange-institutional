@@ -17,6 +17,9 @@
 body{
     background-color: #e2e2e4;
     padding-top: 10vh;
+    overflow-x: hidden;
+        
+     
 }
 
 #banner-mobile{
