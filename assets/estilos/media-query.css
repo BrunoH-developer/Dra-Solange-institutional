@@ -25,9 +25,9 @@ grandes telas: acimda de 1200px
     }
     .nav-list {
       position: absolute;
-      top: 8.2vh;
+      top: 6vh;
       right: 0;
-      width: 65vw;
+      width: 50vw;
       height: 55vh;
       background: #e2e2e4;
       flex-direction: column;
@@ -149,6 +149,9 @@ grandes telas: acimda de 1200px
     width: 23vw;
   }
 
+  #a-header{
+    font-size: 3vw;
+  }
 
   
   
@@ -208,15 +211,23 @@ grandes telas: acimda de 1200px
   width: 23vw;
 }
 
+#a-header{
+  font-size: 2vw;
+}
 
 
 }
 
 @media screen and (min-width:320px) and (max-width: 510px){
 
+  .nav-list {
+
+    width: 60vw;
+
+  }
 
   #h-agende{
-    font-size: 1.2vh;
+    font-size: 1vh;
     color: white;
   }
 

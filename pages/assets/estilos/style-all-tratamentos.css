@@ -11,8 +11,8 @@
     --bege: #b78665fb;
     --branco-body: #e2e2e4;
     --cinza: #727272; 
-    --branco-escuro: #e7e7e7
-
+    --branco-escuro: #e7e7e7;
+    --verde: #4DC247;
 }
 body{
     background-color: #e2e2e4;
@@ -24,15 +24,7 @@ body{
 
         /* Header */
 
- header a {
-    color: rgba(60, 128, 133, 0.822);
-    text-decoration: none;
-    transition: 0.3s;
-    font-weight: 600;
-    font-size: 1vw;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-}
+
 
 a:hover {
     opacity: 0.7;
@@ -370,4 +362,43 @@ footer a:hover{
 
 .msg2{
     padding-bottom: 40px;
+}
+
+/* header agende */
+
+#a-agende{
+    display: flex;
+    background-color: var(--verde);
+    border-radius: 20px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    align-items: center;
+}
+
+header a {
+    color: var(--azul-2);
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: 600;
+    font-size: 0.8vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1vw;
+    
+}
+
+#a-agende img{
+    height: 2vh;
+    margin-right: 5px;
+}
+
+#h-agende{
+    font-size: 0.8vw;
+    color: white;
+    
+}
+
+#a-header{
+    display: none;
 }
