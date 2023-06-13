@@ -218,6 +218,22 @@ grandes telas: acimda de 1200px
 
 }
 
+@media screen and (min-width:100px) and (max-width: 999px){
+
+#chamada{
+  display: none;
+}
+/*Banner-mobile*/
+
+#banner-mobile{
+  display: block;
+}
+
+#promo-banners{
+  width: 100vw;
+  margin-top: -2vh;
+}
+}
 @media screen and (min-width:100px) and (max-width: 510px){
 
   .nav-list {
@@ -317,17 +333,6 @@ header{
 
 }
 
-/*Banner-mobile*/
-
-#banner-mobile{
-  display: block;
-}
-
-#solange-img{
-  width: 100vw;
-  height: 32vh;
-  margin-top: -2vh;
-}
 
 /*Banner*/
 

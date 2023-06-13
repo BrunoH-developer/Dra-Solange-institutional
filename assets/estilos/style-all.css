@@ -381,7 +381,7 @@ footer{
 /* Nav Footer*/
 
 footer nav{
-    display: flex;
+    display: none;
     color: white;
     justify-content: center;
     
@@ -602,4 +602,5 @@ header a {
 #a-header{
     display: none;
 }
+
 

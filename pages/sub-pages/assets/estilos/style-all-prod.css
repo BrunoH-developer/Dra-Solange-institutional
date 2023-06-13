@@ -210,6 +210,10 @@ header nav {
 
 /* Fotter */
 
+#menu-footer{
+    display: none;
+}
+
 footer{
     height: 65vh;
     background-color: rgba(60, 128, 133, 0.822);
@@ -227,7 +231,7 @@ footer nav{
 }
 
 #nav-list-footer{
-    display: flex;
+    display: none;
     list-style: none;
     display: flex;
     margin-top: 0px;

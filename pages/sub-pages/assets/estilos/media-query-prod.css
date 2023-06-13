@@ -78,6 +78,8 @@ grandes telas: acimda de 1200px
   #div-form{
     display: none;
   }
+
+
 }
 
 
@@ -161,6 +163,10 @@ header{
 }
 
 @media screen and (max-width: 350px){
+
+  #relogio{
+    height: 6vw;
+  }
   .nav-list {
 
     width: 60vw;
@@ -235,8 +241,17 @@ header a{
 
 }
 
+@media screen and (max-width: 215px){
+  #div-cat p{
+    font-size: 3vw;
+  }
+}
+
 @media screen and (max-width: 600px){
 
+  #relogio {
+    height: 2.5vh;
+  }
 
   #container-one{
     margin-top: 8vh;
@@ -294,6 +309,14 @@ header a{
 
   #icones-mobile{
     margin-left: 4vw;
+  }
+
+  .div-cat p{
+    font-size: 4vw;
+  }
+
+  #contato p {
+    font-size: 4vw;
   }
 }
 

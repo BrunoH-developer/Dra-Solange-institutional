@@ -11,6 +11,7 @@ grandes telas: acimda de 1200px
 
   @media (max-width: 999px) {
 
+
     #h-agende{
       font-size: 1.2vh;
       color: white;
@@ -76,11 +77,31 @@ grandes telas: acimda de 1200px
     transform: rotate(45deg) translate(-2px, -10px);
   }
 }
-
-@media screen and (max-width: 600px){
-bio{
-  height: 202vh;
+@media screen and (max-width: 215px){
+footer p{
+  font-size: 3vw; 
 }
+
+.img-redes{
+  height: 6vw;
+}
+
+.mobile-menu div{
+  width: 10vw;
+}
+
+}
+@media screen and (max-width: 600px){
+
+footer p{
+  font-size: 4vw;
+}
+
+.img-redes{
+  height: 5vw;
+}
+
+
 
 }
 
@@ -163,9 +184,9 @@ main{
 }
 
 .p-tratamentos{
-  width: 46vw;
+  width: 58vw;
   height: 24vh;
-  font-size: 1.8vh;
+  font-size: 1.7vh;
 }
 
 .h2-tratamentos{
@@ -190,6 +211,13 @@ main{
   height: 4.5vw;
 }
 
+.h-tratamentos{
+  font-size: 4vw;
+}
+
+.div-cat{
+  margin-right: -15vw;
+}
 
 }
 
@@ -496,10 +524,10 @@ footer{
 
 }
 
-@media screen and (min-width:320px) and (max-width:510px){
+@media screen and (min-width:120px) and (max-width:510px){
   .nav-list {
 
-    width: 60vw;
+    width: 70vw;
 
   }
 
@@ -511,5 +539,9 @@ footer{
   #a-header{
     display: block;
     font-size: 4.5vw;
+  }
+
+  .div-cat{
+    margin-right: -10vw;
   }
 }
