@@ -101,79 +101,6 @@ header nav {
     margin-bottom: 4vh;
 }
 
-/* Tratamentos */
-
-#tratamentos{
-    height: 130vh;
-}
-
-.container-tratamentos{
-    display: flex;
-    height: 58vh;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 7vh;
-}
-
-.d-tratamentos{
-    height: 54vh;
-    width: 17vw;
-    margin-left: 3vw;
-    margin-right: 3vw;
-    background-color: var(--branco-escuro);
-    text-align: center;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    margin-top: 5vh;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow:0px 2px 20px rgba(0, 0, 0, 0.281);
-    transition-duration: .3s;
-    border: solid 1px var(--azul);
-}
-
-.img-tratamentos{
-    width: 17vw;
-    height: 22vh;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-}
-
-.h-tratamentos{
-    color: var(--azul);
-    margin-top: 1vh;
-    margin-bottom: 2vh;
-}
-
-.p-tratamentos{
-    color: var(--cinza);
-    width: 14vw;
-    margin: auto;
-    height: 17vh;
-}
-
-.h2-tratamentos{
-    color: var(--azul);
-    margin-top: 5vh;
-    font-size: 1vw;
-    font-weight: lighter;
-    text-decoration: none;
-    
-}
-
-
-.d-tratamentos:hover{
-    margin-top: 0vh;
-    margin-bottom: vh;
-    transition-property: transform;
-    transition-timing-function: ease-out;
-    transition: margin-top 0.5s;
-}
-
-.container-tratamentos a{
-    text-decoration: none;
-}
-
 /* Fotter */
 
 footer{
@@ -405,5 +332,59 @@ header a {
 }
 
 
+/*  Tratamentos */
 
+.container-tratamentos{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.div-tratamentos{
+    width: 17vw;
+    border: solid 1px var(--azul);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.281);
+    text-align: center;
+    padding-bottom: 10px;
+    transition: 0.5s;
+    margin: 40px;
+   
+}
+
+
+.img-tratamentos{
+    width: 17vw;
+    height: 23vh;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.texts-tratamentos{
+    min-height: 280px;
+    max-height: 280px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.h-tratamentos{
+    color: var(--azul);
+    margin-bottom: 20px;
+    font-size: 1em;
+
+}
+
+.p-tratamentos{
+    color: var(--cinza);
+    
+}
+
+.a-tratamentos{
+    color: var(--azul);
+    text-decoration: none;
+}
 

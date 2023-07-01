@@ -373,7 +373,9 @@ header nav {
 
 footer{
     height: 80vh;
-    background-color: rgba(60, 128, 133, 0.822);
+    background-image: url('../imagens/Premium\ Vector\ _\ Rose\ gold\ metallic\ gradient\ with\ scratches_\ rose\ gold\ foil\ surface\ texture\ effect_.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 12vh;
     color: #fff;
 }
