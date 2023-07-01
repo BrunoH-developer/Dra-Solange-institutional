@@ -374,6 +374,7 @@ header nav {
 footer{
     height: 80vh;
     background-color: rosybrown;
+    background-image: url('../imagens/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 12vh;
