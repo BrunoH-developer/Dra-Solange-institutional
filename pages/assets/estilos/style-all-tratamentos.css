@@ -360,6 +360,14 @@ header a {
     cursor: pointer;
 }
 
+.div-tratamentos:hover{
+    opacity: 0.7;
+}
+
+.div-tratamentos:hover > .a-tratamentos{
+    font-weight: bold;
+}
+
 
 .img-tratamentos{
     width: 16vw;
