@@ -20,6 +20,7 @@ grandes telas: acimda de 1200px
     #a-header{
       display: block;
       font-size: 4vw;
+      color: rosybrown;
     }
 
 
@@ -141,6 +142,7 @@ nav{
 
 header a{
   font-size: 4vw;
+  color: rosybrown;
 }
 
 header nav {

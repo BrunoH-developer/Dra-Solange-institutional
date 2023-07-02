@@ -582,7 +582,7 @@ footer a:hover{
 }
 
 header a {
-    color: var(--azul-2);
+    color: rosybrown;
     text-decoration: none;
     transition: 0.3s;
     font-weight: 600;
