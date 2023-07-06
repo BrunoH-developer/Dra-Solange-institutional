@@ -10,6 +10,8 @@ grandes telas: acimda de 1200px
 
 
   @media (max-width: 999px) {
+
+
     #h-agende{
       font-size: 1.2vh;
       color: white;
@@ -17,7 +19,8 @@ grandes telas: acimda de 1200px
     
     #a-header{
       display: block;
-      font-size: 4vw;
+      font-size: 3vw;
+      color: rosybrown;
     }
 
 
@@ -74,10 +77,31 @@ grandes telas: acimda de 1200px
   .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-2px, -10px);
   }
+}
+@media screen and (max-width: 215px){
+footer p{
+  font-size: 3vw; 
+}
 
-  #div-form{
-    display: none;
-  }
+.img-redes{
+  height: 6vw;
+}
+
+.mobile-menu div{
+  width: 10vw;
+}
+
+}
+@media screen and (max-width: 600px){
+
+footer p{
+  font-size: 4vw;
+}
+
+.img-redes{
+  height: 5vw;
+}
+
 
 
 }
@@ -119,7 +143,8 @@ nav{
 }
 
 header a{
-  font-size: 3.5vw;
+  font-size: 4vw;
+  color: rosybrown;
 }
 
 header nav {
@@ -133,403 +158,101 @@ header{
   
 }
 
-.logo{
-  height: 5vh;
 
-}
-
-#container-one{
-  flex-direction: column ;
-  align-items: center;
-}
-}
-
-@media screen and (min-width:320px) and (max-width:510px){
-  .nav-list {
-
-    width: 60vw;
-
-  }
-
-  #h-agende{
-    font-size: 1vh;
-    color: white;
-  }
-
-  #a-header{
-    display: block;
-    font-size: 4.5vw;
-  }
-}
-
-@media screen and (max-width: 350px){
-
-  #relogio{
-    height: 6vw;
-  }
-  .nav-list {
-
-    width: 60vw;
-
-  }
-
-  #h-agende{
-    font-size: 1vh;
-    color: white;
-  }
-
-  #a-header{
-    display: block;
-    font-size: 4.5vw;
-  }
-
-#container-one{
-  margin-top: 8vh;
-}
-
-.img-one{
-  width: 80vw;
-  height: 45vh;
-}
-
-.h1-one{
-  margin-top: 3vh;
-}
-
-.h2-one{
-  width: 67vw;
-  font-size: 6vw;
-  font-weight: 540;
-  
-}
-
-.p-one{
-  height: 32vh;
-  width: 90vw;
-  font-size: 5.3vw;
-}
-
-.p-especiais{
-  height: 65vh;
-  width: 95vw;
-  font-size: 5.3vw;
-}
-
-#contato{
-  width: 70vw;
-  height: 5vh;
-}
-
-.img-contato{
-  height: 5vw;
-}
-
-footer{
-  margin-top: 10vh;
-}
-
-header a{
-  font-size: 4vw;
-}
-.div-cat{
-  margin-right: 10vw;
+#div-form{
+  display: none;
 }
 
 #icones-mobile{
-  margin-left: 10vw;
+  margin-left: 15vw;
+}
+
+#relogio{
+  height: 4.5vw;
+}
+
+.div-cat{
+  margin-right: -15vw;
 }
 
 }
 
-@media screen and (max-width: 215px){
-  #div-cat p{
-    font-size: 3vw;
-  }
+
+
+
+@media screen and (min-width:768px) and (max-width: 940px){ /* Tablet grande */
+
+
+.nav-list {
+  position: absolute;
+  top: 8vh;
+  right: 0;
+  width: 46vw;
+  height: 90vh;
+  background: #e2e2e4;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in;
+  margin-top: 2.3vh;
 }
 
-@media screen and (max-width: 600px){
 
-  #relogio {
-    height: 2.5vh;
+
+}
+
+
+@media screen and (min-width:999px) and (max-width:1250px) {
+  header a {
+    font-size: 1.7vw;
   }
 
-  #container-one{
-    margin-top: 8vh;
+}
+
+
+
+@media screen and (min-width:1250px) and (max-width:1880px){
+  footer{
+    margin-top: 40vh;
   }
-  
-  .img-one{
-    width: 65vw;
-    height: 35vh;
+
+}
+
+/* Celular deitado */
+
+@media screen and (min-width:769px) and (max-width:950px) and (min-height: 280px) and (max-height:400px){
+
+  header nav{
+    height: 14vh;
   }
-  
-  .h1-one{
-    margin-top: 3vh;
-    font-size: 3.4vh;
-  }
-  
-  .h2-one{
-    width: 62vw;
-    font-size: 5vw;
-    font-weight: 540;
+
+  footer{
     
+    margin-top: 70vh;
   }
-  
-  .p-one{
-    height: 30vh;
-    width: 80vw;
-    font-size: 4.3vw;
+
+
+
+
+}
+
+@media screen and (min-width:120px) and (max-width:510px){
+  .nav-list {
+    width: 70vw;
   }
-  
-  .p-especiais{
-    height: 85vh;
-    width: 75vw;
+
+  #h-agende{
+    font-size: 1vh;
+    color: white;
+  }
+
+  #a-header{
+    display: block;
     font-size: 4.5vw;
   }
-  
-  #contato{
-    width: 70vw;
-    height: 5vh;
-  }
-  
-  .img-contato{
-    height: 5vw;
-  }
-  
-  footer{
-    margin-top: 10vh;
-  }
-  
-  header a{
-    font-size: 4vw;
-  }
-  
+
   .div-cat{
-    margin-right: 4vw;
-  }
-
-  #icones-mobile{
-    margin-left: 4vw;
-  }
-
-  .div-cat p{
-    font-size: 4vw;
-  }
-
-  #contato p {
-    font-size: 4vw;
+    margin-right: -10vw;
   }
 }
-
-@media screen and (min-width:600px) and (max-width: 770px){
-
-
-  #container-one{
-    display: flex;
-    flex-direction: row;
-    margin-top: 5vh;
-  }
-  
-  .img-one{
-    width: 50vw;
-    height: 45vh;
-  }
-  
-  .h1-one{
-    margin-top: 3vh;
-    font-size: 3vh;
-  }
-  
-  .h2-one{
-    width: 40vw;
-    font-size: 4vw;
-    font-weight: 540;
-    
-  }
-  
-  .p-one{
-    height: 32vh;
-    width: 43vw;
-    font-size: 3.5vw;
-  }
-  
-  .p-especiais{
-    height: 44vh;
-    width: 43vw;
-    font-size: 2.7vw;
-  }
-  
-  #contato{
-    width: 37vw;
-    height: 5vh;
-  }
-  
-  .img-contato{
-    height: 3vw;
-  }
-  
-  footer{
-    margin-top: 10vh;
-  }
-  
-  header a{
-    font-size: 4vw;
-  }
-
-
-  #div-form{
-    display: flex;
-  }
-
-  .dados2{
-    width: 30vw;
-  }
-  
-  }
-
-  @media screen and (min-width:600px) and (max-width: 999px){
-
-
-    .logo{
-      height: 5.5vw;
-    }
-
-    #container-one{
-      display: flex;
-      flex-direction: row;
-      margin-top: 20vh;
-    }
-    
-    .img-one{
-      width: 50vw;
-      height: 45vh;
-    }
-    
-    .h1-one{
-      margin-top: 3vh;
-      font-size: 3vh;
-    }
-    
-    .h2-one{
-      width: 40vw;
-      font-size: 2.7vw;
-      font-weight: 540;
-      
-    }
-    
-    .p-one{
-      height: 40vh;
-      width: 36vw;
-      font-size: 2.4vw;
-    }
-    
-    .p-especiais{
-      height: 44vh;
-      width: 36vw;
-      font-size: 2.9vw;
-    }
-    
-    #contato{
-      width: 37vw;
-      height: 5vh;
-    }
-    
-    .img-contato{
-      height: 3vw;
-    }
-    
-    footer{
-      margin-top: 10vh;
-    }
-    
-    #a-header{
-      font-size: 3vw;
-    }
-  
-  
-    #div-form{
-      display: flex;
-    }
-  
-    .dados2{
-      width: 30vw;
-    }
-    
-    }
-
-    @media screen and (min-width:999px) and (max-width: 1200px){
-    
-    header a{
-      font-size: 1.6vw;
-    }
-    
-    .logo{
-      height: 4.1vw;
-    }
-    
-    .img-one{
-      width: 37vw;
-      height: 45vh;
-    }
-
-    .p-one{
-      font-size: 1.8vw;
-      width: 33vw;
-      height: 35vh;
-    }
-
-    .h2-one{
-      font-size: 2vw;
-      width: 28vw;
-    }
-
-    #contato{
-      width: 25vw;
-    }
-
-    }
-
-    @media screen and (min-width:1200px) and (max-width: 1350px) {
-
-      .logo{
-        height: 5vh;
-      }
-
-      header a {
-        font-size: 1.5vw;
-      }
-
-      .img-one{
-        width: 34vw;
-      }
-
-      .p-one{
-        font-size: 1.6vw;
-        height: 32vh;
-      }
-
-      #contato{
-        width: 22vw;
-      }
-
-      .h2-one{
-        font-size: 1.8vw;
-        width: 25vw;
-      }
-    }
-
-    @media screen and (min-width:1350px) and (max-width: 1600px){
-      .img-one{
-        width: 30vw;
-      }
-
-      .p-one{
-        font-size: 1.4vw;
-        height: 39vh;
-      }
-    }
-
-
-
-
-
-  
