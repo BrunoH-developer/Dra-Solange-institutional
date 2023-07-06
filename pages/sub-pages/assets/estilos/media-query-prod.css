@@ -12,11 +12,7 @@ grandes telas: acimda de 1200px
   @media (max-width: 999px) {
 
 
-    #h-agende{
-      font-size: 1.2vh;
-      color: white;
-    }
-    
+  
     #a-header{
       display: block;
       font-size: 3vw;
@@ -240,11 +236,6 @@ header{
 @media screen and (min-width:120px) and (max-width:510px){
   .nav-list {
     width: 70vw;
-  }
-
-  #h-agende{
-    font-size: 1vh;
-    color: white;
   }
 
   #a-header{

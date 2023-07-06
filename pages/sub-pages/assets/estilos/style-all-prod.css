@@ -97,7 +97,7 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.6vw;
     align-items: center;
-    margin-top: 24vh;
+    margin-top: 13vh;
     margin-bottom: 8vh;
 }
 
@@ -184,6 +184,12 @@ header nav {
 }
 
 @media (width < 1300px){
+
+#h-consulta{
+    font-size: 0.7em;
+    color: white;
+}
+
 .p-prod{
     width: 36vw;
 }   
@@ -208,6 +214,7 @@ header nav {
 }
 
 @media (width < 900px){
+
 
 .logo{
     height: 4vh;
@@ -245,8 +252,12 @@ flex-direction: column;
 }
 
 .consulta{
-  width: 30vw;  
+  width: 40vw;  
   
+}
+
+#h-consulta{
+    font-size: 0.8em;
 }
 
 }
@@ -257,8 +268,12 @@ flex-direction: column;
 }
 
 .consulta{
-width: 35vw;  
+width: 55vw;  
 
+}
+
+#h-consulta{
+    font-size: 0.8em;
 }
 
 .img-prod{
@@ -279,7 +294,7 @@ width: 35vw;
 }
 
 .consulta{
-width: 45vw;  
+width: 55vw;  
 
 }
 
@@ -303,6 +318,9 @@ width: 45vw;
 
 @media (width < 300px){
 
+.consulta{
+    width: 70vw;  
+}
 
 .p-prod{
     width: 85vw;
@@ -544,10 +562,14 @@ header a {
     margin-right: 5px;
 }
 
-#h-agende{
-    font-size: 0.8vw;
+.h-agende{
     color: white;
-    
+    font-size: 0.9em;
+}
+
+.h-consulta{
+    color: white;
+    font-size: 0.8vw;
 }
 
 #a-header{
