@@ -429,7 +429,7 @@ header a {
 }
 
 .p-tratamentos{
-    padding: 20px;
+    
 }
 }
 
@@ -451,7 +451,11 @@ header a {
 }
 }
 
-
+@media (width < 370px){
+.p-tratamentos{
+    font-size: 0.9em;
+}  
+}
 
 @media (width < 350px){
 .img-tratamentos{
