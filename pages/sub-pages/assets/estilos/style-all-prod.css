@@ -238,6 +238,10 @@ flex-direction: column;
 
 } 
 
+.p-texts{
+    text-align: center;
+}
+
 .img-prod{
     width: 60vw;
     margin-bottom: 5vh;
@@ -253,6 +257,7 @@ flex-direction: column;
 
 .p-prod{
     width: 55vw;
+    
 }
 
 .consulta{
