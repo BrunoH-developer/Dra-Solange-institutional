@@ -209,7 +209,7 @@ header nav {
 }
 
 .consulta{
-    width: 20vw;
+    width: 30vw;
 }
 }
 
@@ -224,8 +224,12 @@ header nav {
     width: 40vw;
 }
 .p-prod{
-    width: 50vw;
-}  
+    width: 32vw;
+} 
+
+.consulta{
+
+}
 }
 
 @media (width < 750px){
@@ -564,12 +568,12 @@ header a {
 
 .h-agende{
     color: white;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 .h-consulta{
     color: white;
-    font-size: 0.8vw;
+    font-size: 0.8em;
 }
 
 #a-header{
