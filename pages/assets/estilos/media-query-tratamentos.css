@@ -257,9 +257,7 @@ header a {
 
 
 @media screen and (min-width:999px) and (max-width:1250px) {
-  footer{
-    height: 63vh;
-  }
+
 
 
   .titulo{
@@ -274,14 +272,12 @@ header a {
 }
 
 @media screen and (min-width:1250px) and (max-width:1550px){
-  footer{
-    height: 60vh;
-  }
+
 }
 
 @media screen and (min-width:1250px) and (max-width:1880px){
   footer{
-    height: 70vh;
+   
     margin-top: 40vh;
   }
 
@@ -304,7 +300,6 @@ header a {
   }
 
   footer{
-    height: 100vh;
     margin-top: 70vh;
   }
 
@@ -318,9 +313,7 @@ header a {
 
 @media screen and (min-width:120px) and (max-width:510px){
   .nav-list {
-
     width: 70vw;
-
   }
 
   #h-agende{
