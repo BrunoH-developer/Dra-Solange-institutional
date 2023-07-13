@@ -95,7 +95,7 @@ header nav {
     color: rosybrown;
     cursor: pointer;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2vw;
+    font-size: 1.5vw;
     align-items: center;
     margin-top: 24vh;
     margin-bottom: 4vh;
@@ -386,24 +386,71 @@ header a {
 .h-tratamentos{
     color: rosybrown;
     margin-bottom: 20px;
-    font-size: 1em;
+    font-size: 1.3em;
 
 }
 
 .p-tratamentos{
     color: var(--cinza);
+    font-size: 1.2em;
     
 }
 
 .a-tratamentos{
     color: rosybrown;
     text-decoration: none;
+    font-size: 1.3em;
 }
 
 #tratamentos{
     display: flex;
     justify-content: center;
 }
+
+
+@media (width < 1800px){
+    .div-tratamentos{
+        width: 20vw;
+    }
+
+    .img-tratamentos{
+        width: 20vw;
+    }
+
+    .p-tratamentos{
+        font-size: 1em;
+    }
+
+    
+    .h-tratamentos{
+        font-size: 1.1em;
+
+    }
+}
+@media (width < 1350px){
+    .h-tratamentos{
+        font-size: 1em;
+
+}
+
+}
+
+
+@media (width < 1150px){
+    .div-tratamentos{
+        width: 25vw;
+    }
+
+    .img-tratamentos{
+        width: 25vw;
+    }
+
+    .logo{
+       height: 3.8vw; 
+    }
+}
+
+
 
 @media (width < 900px){
 
