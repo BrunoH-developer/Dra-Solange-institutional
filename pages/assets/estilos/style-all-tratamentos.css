@@ -95,7 +95,7 @@ header nav {
     color: rosybrown;
     cursor: pointer;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.5vw;
+    font-size: 1.9vw;
     align-items: center;
     margin-top: 24vh;
     margin-bottom: 4vh;
@@ -410,11 +410,11 @@ header a {
 
 @media (width < 1800px){
     .div-tratamentos{
-        width: 20vw;
+        width: 18vw;
     }
 
     .img-tratamentos{
-        width: 20vw;
+        width: 18vw;
     }
 
     .p-tratamentos{
