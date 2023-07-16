@@ -188,18 +188,7 @@ main{
     }
 }
 
-#vertical{
-    display: none;
-}
 
-@media (width < 480px){  
-#vertical{
-    display: block;
-}
-#horizontal{
-    display: none;
-}
-}
 
 
 
