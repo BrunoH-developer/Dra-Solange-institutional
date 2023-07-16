@@ -386,13 +386,13 @@ header a {
 .h-tratamentos{
     color: rosybrown;
     margin-bottom: 20px;
-    font-size: 1.3em;
+    font-size: 1.2em;
 
 }
 
 .p-tratamentos{
     color: var(--cinza);
-    font-size: 1.2em;
+    font-size: 1em;
     
 }
 
