@@ -108,7 +108,7 @@ grandes telas: acimda de 1200px
   }
   
   .logo{
-    height: 5.4vw;
+    height: 7.4vw;
   }
   
   .t-img{
@@ -232,6 +232,19 @@ grandes telas: acimda de 1200px
   margin-top: -2vh;
 }
 }
+
+@media (width < 510px){
+  .logo{
+    height: 5vh;
+  }
+}
+
+@media (width < 260px){
+  .logo{
+    height: 3vh;
+  }
+}
+
 @media screen and (min-width:100px) and (max-width: 510px){
 
   .nav-list {
@@ -294,11 +307,6 @@ header{
   position: fixed;
   margin-top: -10vh;
   z-index: 999;
-}
-
-.logo{
-  height: 4vh;
-
 }
 
 #slider img{
