@@ -238,10 +238,10 @@ grandes telas: acimda de 1200px
     height: 5vh;
   }
 
-  main{
-    padding-top: 5vh;
-  }
+ 
 }
+
+
 
 @media (width < 260px){
   .logo{

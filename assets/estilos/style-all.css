@@ -137,7 +137,7 @@ header nav {
 .container{
     width: 100%;
     height: 100vh;
-    background-color: rgba(188, 143, 143, 0.644);
+    background-color: rgba(188, 143, 143, 0.76);
     display: flex;
     align-items: center;
     font-family:'Poppins';;
@@ -187,6 +187,12 @@ header nav {
     .background-clip{
         width: auto;
         height: 100%;
+    }
+}
+
+@media (width < 500px){
+    main{
+        margin-top: -10vh;
     }
 }
 
