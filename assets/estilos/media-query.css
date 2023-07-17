@@ -233,9 +233,13 @@ grandes telas: acimda de 1200px
 }
 }
 
-@media (width < 510px){
+@media (width < 515px){
   .logo{
     height: 5vh;
+  }
+
+  main{
+    padding-top: 5vh;
   }
 }
 
