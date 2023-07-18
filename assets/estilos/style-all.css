@@ -206,6 +206,26 @@ header nav {
 
 
 
+@media (width < 900px){ 
+    main{
+        margin-top: -10vh;
+    }
+
+    .container{
+        margin-top: -20vh;
+    }
+
+    .content h1{
+        font-size: 35px;
+    }
+
+    .content a{
+        font-size: 19px;
+    }
+}
+
+
+
 
 
 /*   end call    */
