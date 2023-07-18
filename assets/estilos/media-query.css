@@ -237,11 +237,7 @@ grandes telas: acimda de 1200px
   .logo{
     height: 5vh;
   }
-
- 
 }
-
-
 
 @media (width < 260px){
   .logo{
