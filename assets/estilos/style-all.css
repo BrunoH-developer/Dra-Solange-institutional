@@ -197,6 +197,7 @@ header nav {
     #poster{
      display: block;   
      width: 100vw;
+     margin-top: 5vh;
     }
 }
 
