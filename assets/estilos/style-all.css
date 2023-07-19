@@ -153,6 +153,7 @@ header nav {
     margin-bottom: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    margin-top: 50px;
 }
 
 .content h3{
@@ -174,7 +175,7 @@ header nav {
 
 .content a:hover{
     background-color: #fff;
-    color: #000;
+    color: rosybrown;
 }
 
 .background-clip{
