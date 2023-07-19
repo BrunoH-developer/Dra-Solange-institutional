@@ -181,6 +181,7 @@ footer a:hover{
     padding: 5px;
     padding-top: 2vh;
     padding-bottom: 2vh;
+    align-items: center;
 }
 
 .icones p{
@@ -188,7 +189,7 @@ footer a:hover{
 }
 
 #relogio{
-    height: 1vw;
+    height: 18px;
 }
 
 .tell{

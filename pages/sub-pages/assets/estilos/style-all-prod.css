@@ -176,7 +176,7 @@ header nav {
 }
 
 .p-texts{
-    width: 60vw;
+    width: 80vw;
     margin: auto;
     color:var(--cinza) ;
     font-size: 1.2em;
@@ -242,9 +242,7 @@ flex-direction: column;
 
 } 
 
-.p-texts{
-    text-align: center;
-}
+
 
 .img-prod{
     width: 60vw;
@@ -260,8 +258,7 @@ flex-direction: column;
 }
 
 .p-prod{
-    width: 55vw;
-    text-align: center;
+    width: 80vw;
 }
 
 .consulta{
@@ -277,7 +274,7 @@ flex-direction: column;
 
 @media (width < 500px){
 .p-prod{
-    width: 70vw;
+    width: 90vw;
 }
 
 .consulta{
@@ -290,12 +287,12 @@ width: 55vw;
 }
 
 .img-prod{
-    width: 70vw;
+    width: 80vw;
    
 }
 
 .p-texts{
-    width: 70vw;
+    width: 90vw;
 }
 
 
@@ -303,7 +300,7 @@ width: 55vw;
 
 @media (width < 400px){
 .p-prod{
-    width: 80vw;
+    width: 90vw;
 }
 
 .consulta{
@@ -345,7 +342,7 @@ width: 55vw;
 }
 
 .p-texts{
-    width: 85vw;
+    width: 90vw;
     text-justify: center;
 }
 }
@@ -432,6 +429,7 @@ footer a:hover{
     padding: 5px;
     padding-top: 2vh;
     padding-bottom: 2vh;
+    align-items: center;
 }
 
 .icones p{
@@ -439,7 +437,7 @@ footer a:hover{
 }
 
 #relogio{
-    height: 1vw;
+    height: 18px;
 }
 
 .tell{
