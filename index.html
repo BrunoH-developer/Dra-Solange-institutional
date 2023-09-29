@@ -9,196 +9,237 @@
     <link rel="stylesheet" href="assets/estilos/media-query.css">
     <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 </head>
 <body>
     
 <header>
     <nav>
-        <a class="logo" href="/"><img class="logo" src="assets/imagens/ass.png"></a>
-        <div class="mobile-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
-        
-        <ul class="nav-list">
-            <li><a id="a-header">Início</a></li>
-            <li><a target="_blank" href="https://api.whatsapp.com/send/?phone=5511993313592&text=Ol%C3%A1+Dra+Solange,+gostaria+de+agendar+uma+consulta%21&type=phone_number&app_absent=0"><div id="a-agende"><img src="assets/imagens/whatsapp.png" alt=""><h1 id="h-agende">AGENDAR CONSULTA</h1></div></a></li>
-            <li><a></a></li>
-            <li></li>
-        </ul>
+      <a href="#"><img id="logo" src="assets/imagens/ass.png" alt="logo Dra. Solange Maria da Silva"></a>
+      <div id="a-agende"><img class="icons-agendar" src="assets/imagens/re-work-index/calendario-icon-white.png" alt=""><h1 id="h-agende">agende seu horário</h1></div></a></li>
+    
     </nav>
 </header>
 
 <main>
+    <section id="call">
+        <div class="div-call one">
+            <img id="img-call" src="assets/imagens/re-work-index/call.png" alt="Doutora Solange Maria da Silva">
+        </div>
 
-    <section !important>
-        <div class="container">
+        <div class="div-call">
+            <h2 id="h2-call">FARMACÊUTICA ESTETA | CRF 63.467</h2>
+            <h1 id="h1-call">Solange Maria</h1>
+            <h3 id="h2-call">Minha maior <strong>realização profissional</strong> é perceber a <strong>satisfação<br> dos meus pacientes</strong> com os <strong>resultados</strong> dos meus procedimentos.</h3>
+            <a target="_blank" href="https://api.whatsapp.com/send/?phone=5511993313592&text=Ol%C3%A1+Dra+Solange,+gostaria+de+agendar+uma+consulta%21&type=phone_number&app_absent=0">
+                <div id="div-agendar-call"><img class="icons-agendar" id="img-agendar" src="assets/imagens/re-work-index/calendario-icon-white.png"> <p id="p-agendar-call">agende seu horário</p></div>
+            </a>
+        </div>
+    </section>
 
-            <video autoplay loop muted plays-inline class="background-clip">
-                <source src="assets/imagens/horizontal.mp4" type="video/mp4">
-            </video>
     
-            <div class="content">
-                <h1>Dra Solange Maria</h1>
-               
-                <h3>"Minha maior realização profissional
-                    é perceber a satisfação dos <br> meus pacientes com os resultados dos meus procedimentos."</h3>
-                <a href="#tratamentos">Conheça</a>
-            </div>
-        </div>
-
-        <img id="poster" src="assets/imagens/sol.png" alt="">
-    </section>
-
-
-        
-    <h1 class="titulo" id="h-tratamentos" data-anime="left">Tratamentos</h1>
-        
-    <section id="tratamentos">    
-
-
-            
-        <div class="t-div" data-anime="bottom">
-            <a href="pages/corporal.html"><img class="t-img" src="assets/imagens/corporal.jpg" alt=""></a>
-            <h3 class="t-h3">TRATAMENTOS CORPORAIS</h3>
-        </div>
-
-        <div class="t-div" data-anime="bottom">
-            <a href="pages/facial.html"><img class="t-img" src="assets/imagens/facial.jpg" alt=""></a>
-            <h3 class="t-h3">TRATAMENTOS FACIAIS</h3>
-        </div>
-
-        <div class="t-div" data-anime="bottom">
-            <a href="pages/capilar.html"><img class="t-img" src="assets/imagens/capilar.png" alt=""></a>  
-            <h3 class="t-h3">TRATAMENTOS CAPILARES</h3>
-        </div>
-
-    </section>
-
-
-    <section id="clinica">
-
-        <h1 class="titulo" data-anime="left">Nosso espaço</h1>
-
-        <div id="slider" data-anime="bottom">
-            <img class="selected" src="assets/imagens/clinica/clinica1.jpg" alt="">
-            <img src="assets/imagens/clinica/clinica3.jpg" alt="">
-            <img src="assets/imagens/clinica/clinica4.jpg" alt="">
-            <img src="assets/imagens/clinica/clinica5.jpg" alt="">
-            <img src="assets/imagens/clinica/clinica6.jpg" alt="">
-            <img src="assets/imagens/clinica/clinica7.jpg" alt="">
-        </div>
-    </section>
-
-    <section id="bio">
-    
-        <div class="div-bio">
-            <img data-anime="left" id="img-bio" src="assets/imagens/solange/sol.jpeg" alt="">
-        </div>
-    
-        <div class="div-bio">
-
-            <h3 id="h3-bio" data-anime="left">Dra. Solange Maria</h3>
-                <img  data-anime="left" src="assets/imagens/formas.png" alt="">
-                <p data-anime="left" id="prof-bio"><strong>Farmacêutica - CRF 63.467-SSP </strong></p>
-                <p data-anime="left" class="textos-bio"> Sou a Dra Solange Maria, farmacêutica Esteta, minha maior realização profissional
-                    é perceber a satisfação dos meus pacientes com os resultados dos meus procedimentos. <br><br>
-                    Como farmacêutica tenho um olhar diferenciado que envolve o indivíduo como um todo. <br><br>
-                    Meu intuito é fazer uma prestação de serviço de excelência que envolva tanto a farmácia clínica
-                    como a estética avançada, trabalhando em conjunto com a saúde e o bem estar e te deixar cada vez melhor!
-                </p>
-                <br>
-                <div>
-                    <ul data-anime="left" id="bio-exp">
-                        <li  class="li-bio">Graduada em Farmácia pela Universidade Anhembi Morumbi.</li> 
-                        <li class="li-bio">Pós Graduada em Farmácia Estética Avançada pela Universidade Fapuga.</li> 
-                        <li class="li-bio">Certificada nas técnicas patenteadas pelo curso de imersão avançada em rinomodelação e fios nasais técnica exclusiva Dra Natali Rodrigues.</li> 
-                        <li class="li-bio">Certificada Protocoll ® e BIOreconexão técnica exclusiva Dra Valéria Dall Coll.</li> 
-                        <li class="li-bio">Curso de Especializaçao em Fresh Frozen experience, universidade CTA.</li> 
-                        <li class="li-bio">Especialista em procedimentos estéticos avançados, teórico e prático “Hands on”.</li> 
-                    </ul>
-                </div>
-        
-
-        </div>
-    </section>
-
-    <section id="contato">
-        <h1 class="titulo" id="h-contato" data-anime="left">Contato</h1>
-    <div id="d-contato">
         <div>
-            <iframe data-anime="bottom" id="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d117048.42812558037!2d-46.6605934!3d-23.5410115!3m2!1i1024!2i768!4f13. 1!3m3!1m2!1s0x94ce59787e6710d5%3A0x3bf0f794dfdbc6f8!2sSol%20Care%20Est%C3%A9tica%20Avan%C3%A7ada%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1670544816458!5m2!1spt-BR!2sbr"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <img id="wave-top" src="assets/imagens/re-work-index/wavetop.png">
+            <section id="benefits">
+        
+                <div id="container-dBenefits-one">
+                    <h1 id="h1-benefits" class="titulos">Benefícios</h1>
+                    <p id="p-benefits">Descubra os diversos benefícios que meus tratamentos podem oferecer a você.</p>
+                </div>
+                <div id="container-dBenefits">
+                    <div class="div-benefits">
+                        <img class="img-benefits" src="assets/imagens/re-work-index/estetica-icon.png" alt="Icone de estética">
+                        <p class="text-benefits">Realce sua beleza e confiança com tratamentos <br> estéticos que elevam sua aparência e autoestima.</p>
+                    </div>
+                    <div class="div-benefits">
+                        <img class="img-benefits" src="assets/imagens/re-work-index/saude-icon.png" alt="Icone de estética">
+                        <p class="text-benefits">Priorize sua saúde com tratamentos com ozônio,<br> promovendo bem-estar e vitalidade.</p>
+                    </div>
+                    <div class="div-benefits">
+                        <img class="img-benefits" src="assets/imagens/re-work-index/emagrecimento-icon.png" alt="Icone de estética">
+                        <p class="text-benefits">Alcance seus objetivos de perda de peso e redução <br> de gordura de forma eficaz e saudável.</p>
+                    </div>
+                </div>
+            </section>
+            <img id="wave-bottom" src="assets/imagens/re-work-index/wavebottom.png">
+        </div>
+        <div id="responsive">  
+        <section id="tratamentos">
+            <div id="tratamentos-dOne">
+                <h1 id="h1-tratamentos" class="titulos">Tratamentos</h1>
+                <p class="sub-titulos p-tratamentos">Descubra a variedade de tratamentos disponiveis para você.</p>
             </div>
-            <div>
-            <form id="forms" action="https://formsubmit.co/brunostwitch@gmail.com" method="POST">
-                <div id="forms" >
-                    <h1 class="titulo t-contato" data-anime="left">AGENDE SUA CONSULTA</h1>
-                    <input class="dados" type="text" name="name" required placeholder="Nome">
-                    <input class="dados" type="email" name="email" required placeholder="Email">
-                    <input class="dados" type="tel" name="tel" required placeholder="Telefone">
-                    <input type="hidden" name="_captcha" value="false">
-                    <input class="dados  msg" type="text" name="msg" placeholder="Sua mensagem">
-                    <button id="submit"  type="submit">Enviar</button>
-                </div>    
-            </form>
-        </div>
+            <div id="tratamentos-dTwo">
+                <a href="pages/corporal.html">
+                    <div class="div-tratamentos">
+                        <img class="img-tratamentos" src="assets/imagens/corporal.jpg" alt="Tratamentos Corporais">
+                        <p class="sub-titulos p-tratamentos">Tratamentos corporais</p>
+                    </div>
+                </a>
+                <a href="pages/facial.html">
+                    <div class="div-tratamentos">
+                        <img class="img-tratamentos" src="assets/imagens/facial.jpg" alt="Tratamentos Corporais">
+                        <p class="sub-titulos p-tratamentos">Tratamentos faciais</p>
+                    </div>
+                </a>
+                <a href="pages/capilar.html">
+                    <div class="div-tratamentos">
+                        <img class="img-tratamentos" src="assets/imagens/capilar.png" alt="Tratamentos Corporais">
+                        <p class="sub-titulos p-tratamentos">Tratamentos capilares</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section id="quest">
+            <div class="div-quest">
+                <h1 class="titulos" id="h1-quest">Como posso te ajudar?</h1>
+                <p id="p-quest" class="sub-titulos">Encontrou o tratamentos que pode extrair ainda br mais da sua beleza natural?</p>
+            </div>
+            <div class="div-quest">
+                <a target="_blank" href="https://api.whatsapp.com/send/?phone=5511993313592&text=Ol%C3%A1+Dra+Solange,+gostaria+de+agendar+uma+consulta%21&type=phone_number&app_absent=0">
+                    <div id="div-quest-agende">
+                        <img id="img-quest-agende" class="icons-agendar" src="assets/imagens/re-work-index/calendario-icon-rosy.png" alt="">
+                        <p id="p-quest-agende">agende seu horário</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section id="bio">
+        
+            <div class="div-bio">
+                <img data-anime="left" id="img-bio" src="assets/imagens/solange/sol.jpeg" alt="">
+            </div>
+        
+            <div class="div-bio">
+                <h1 id="h1-bio"  >Dra. Solange Maria</h1>
+                    <img   src="assets/imagens/formas.png" alt="">
+                    <p id="prof-bio" class="sub-titulos"><strong>Farmacêutica - CRF 63.467-SSP </strong></p>
+                    <p class="textos-bio"> Sou a Dra Solange Maria, farmacêutica Esteta, minha maior realização profissional
+                        é perceber  <br> a satisfação dos meus pacientes com os resultados dos meus procedimentos. <br><br>
+                        Como farmacêutica tenho um olhar diferenciado que envolve o indivíduo como um todo. <br><br>
+                        Meu intuito é fazer uma prestação de serviço de excelência que envolva tanto a farmácia clínica
+                        como <br> a estética avançada, trabalhando em conjunto com a saúde e o bem estar e te deixar cada vez melhor!
+                    </p>
+                    <br>
+                    <div>
+                        <ul id="bio-exp">
+                            <li  class="li-bio">Graduada em Farmácia pela Universidade Anhembi Morumbi.</li>
+                            <li class="li-bio">Pós Graduada em Farmácia Estética Avançada pela Universidade Fapuga.</li>
+                            <li class="li-bio">Certificada nas técnicas patenteadas pelo curso de imersão avançada em <br> rinomodelação e fios nasais técnica exclusiva Dra Natali Rodrigues.</li>
+                            <li class="li-bio">Certificada Protocoll ® e BIOreconexão técnica exclusiva Dra Valéria Dall Coll.</li>
+                            <li class="li-bio">Curso de Especializaçao em Fresh Frozen experience, universidade CTA.</li>
+                            <li class="li-bio">Especialista em procedimentos estéticos avançados, teórico e prático “Hands on”.</li>
+                        </ul>
+                    </div>
+            </div>
+        </section>
+        <section id="consulta">
+            <h1 id="h1-consulta" class="titulos">Consulta</h1>
+            <p id="p-consulta" class="sub-titulos">Marque sua consulta com a nossa equipe.</p>
+            <div id="container-consulta">
+                <div class="div-consulta">
+                    <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d117048.42812558037!2d-46.6605934!3d-23.5410115!3m2!1i1024!2i768!4f13. 1!3m3!1m2!1s0x94ce59787e6710d5%3A0x3bf0f794dfdbc6f8!2sSol%20Care%20Est%C3%A9tica%20Avan%C3%A7ada%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1670544816458!5m2!1spt-BR!2sbr"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="div-consulta">
+                    <form id="forms" action="https://formsubmit.co/brunostwitch@gmail.com" method="POST">
+                        <div id="forms" >
+        
+                            <input class="dados" type="text" name="name" required placeholder="Nome">
+                            <input class="dados" type="email" name="email" required placeholder="Email">
+                            <input class="dados" type="tel" name="tel" required placeholder="Telefone">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input class="dados  msg" type="text" name="msg" placeholder="Sua mensagem">
+                            <button id="submit"  type="submit">Confirmar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="aval">
+            <h1 class="titulos text-aval">Avaliação</h1>
+            <p class="text-aval sub-titulos">Veja a avaliação dos nossos clientes no Google</p>
+            <div class="swiper">
+        
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="project-img">
+                        <img src="assets/imagens/re-work-index/av1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="project-img">
+                        <img src="assets/imagens/re-work-index/av2.png" alt="">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="project-img">
+                        <img src="assets/imagens/re-work-index/av3.png" alt="">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="project-img">
+                        <img src="assets/imagens/re-work-index/av4.png" alt="">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="project-img">
+                        <img src="assets/imagens/re-work-index/av5.png" alt="">
+                    </div>
+                  </div>
+        
+            </div>
+        </section>
+        </main>
+        <footer>
+        
+            <div class="div-cat">
+                <p id="e-cat"><strong>Endereço:</strong></p>
+                <p>Rua Itapeva, 286 - sala 53</p>
+                <p class="numbers">Cep: 01332-000</p>
+                <p>Bela Vista, São Paulo</p>
+                <p id="c-cat"><strong>Contato:</strong></p>
+                <div class="icones tell"><img src="assets/imagens/tell.png" alt="icone de telefone"> <p class="numbers">(11) 99331-3592</p></div>
+                <div class="icones"><img src="assets/imagens/e-mail.png" alt="icone de email"><p>solcare@contato.com.br</p></div>
+                <div class="icones"><img id="relogio" src="assets/imagens/relogio.png" alt="icone de relogio"> <p>Atendimento: De 08h às <br> 20h (Seg. a sex.)</p></div>
+            </div>
+            <div id="div-form" class="div-cat">
+                <p id="p-form"><strong>Duvidas:</strong></p>
+                <form id="forms-2" action="https://formsubmit.co/brunostwitch@gmail.com" method="POST">
+                    <div id="forms2">
+                        <input class="dados2" type="text" name="name" required placeholder="Nome">
+                        <input class="dados2" type="email" name="email" required placeholder="Email">
+                        <input class="dados2" type="tel" name="tel" required placeholder="Telefone">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input class="dados2  msg2" type="text" name="duvida" placeholder="Sua duvida">
+                        <button id="submit2"  type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div id="icones-mobile">
+                <div class="d-icones"><a href="https://www.instagram.com/drasol_farmaceuticaesteta/"><img class="img-redes" src="assets/imagens/instagram.png" alt=""></a></div>
+                <div class="d-icones"><a href="https://wa.me/5511993313592?text=Ol%C3%A1,%20Gostaria%20de%20marcar%20uma%20consulta!"><img class="img-redes" src="assets/imagens/whatsapp.png" alt=""></a></div>
+                <div><a href="https://pt-br.facebook.com/solcare.estetica/"><img class="img-redes" src="assets/imagens/facebook.png" alt=""></a></div>
+            </div>
+        
+        </footer>
     </div>
-    </section>
-</main>
-
-<footer>
 
 
-    <section id="cat-footer">
-        <div class="div-cat">
-            <p id="e-cat"><strong>Endereço:</strong></p>
-            <p>Rua Itapeva, 286 - sala 53</p>
-            <p class="numbers">Cep: 01332-000</p>
-            <p>Bela Vista, São Paulo</p>
-            <p id="c-cat"><strong>Contato:</strong></p>
-            <div class="icones tell"><img src="assets/imagens/tell.png" alt="icone de telefone"> <p class="numbers">(11) 99331-3592</p></div>
-            <div class="icones"><img src="assets/imagens/e-mail.png" alt="icone de email"><p>solcare@contato.com.br</p></div>
-            <div class="icones"><img id="relogio" src="assets/imagens/relogio.png" alt="icone de relogio"> <p>Atendimento: De 08h às <br> 20h (Seg. a sex.)</p></div>
-        </div>
 
-        <div id="div-form" class="div-cat">
-            <p id="p-form"><strong>Duvidas:</strong></p>
-            <form id="forms-2" action="https://formsubmit.co/brunostwitch@gmail.com" method="POST">
-                <div id="forms2">
 
-                    <input class="dados2" type="text" name="name" required placeholder="Nome">
-                    <input class="dados2" type="email" name="email" required placeholder="Email">
-                    <input class="dados2" type="tel" name="tel" required placeholder="Telefone">
-                    <input type="hidden" name="_captcha" value="false">
-                    <input class="dados2  msg2" type="text" name="duvida" placeholder="Sua duvida">
-                    <button id="submit2"  type="submit">Enviar</button>
-                </div>    
-            </form>
-        </div>
 
-        <div class="div-cat" id="redes">
-            <p id="r-cat"><strong>Redes Sociais:</strong></p>
-            <div class="redes insta"><img class="img-redes" src="assets/imagens/instagram.png" alt="icone instagram"> <p class="n-redes">@SolCare</p></div>
-            <div class="redes"> <img class="img-redes" src="assets/imagens/whatsapp.png" alt=""> <p class="numbers">(11) 99331-3592</p></div>
-            <div class="redes face"><img class="img-redes" src="assets/imagens/facebook.png" alt="icone facebook"> <p>SolCare Estética</p></div>
-            
-        </div>
 
-        <div id="icones-mobile">
-            <div class="d-icones"><a href="https://www.instagram.com/drasol_farmaceuticaesteta/"><img class="img-redes" src="assets/imagens/instagram.png" alt=""></a></div>
-            <div class="d-icones"><a href="https://wa.me/5511993313592?text=Ol%C3%A1,%20Gostaria%20de%20marcar%20uma%20consulta!"><img class="img-redes" src="assets/imagens/whatsapp.png" alt=""></a></div>
-            <div><a href="https://pt-br.facebook.com/solcare.estetica/"><img class="img-redes" src="assets/imagens/facebook.png" alt=""></a></div>
-        </div>
 
-    </section>
-    
-</footer>
 
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <script src="assets/scripts/all.js"></script>
 <script src="assets/scripts/Animate-transition.js"></script>
 <script src="assets/scripts/Mobile-navbar.js"></script>
-<script src="assets/scripts/Slides.js"></script>
     
 </body>
 </html>
