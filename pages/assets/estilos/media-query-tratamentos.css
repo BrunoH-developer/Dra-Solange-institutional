@@ -79,33 +79,6 @@ grandes telas: acimda de 1200px
 
 }
 
-@media screen and (max-width: 215px){
-footer p{
-  font-size: 3vw; 
-}
-
-.img-redes{
-  height: 6vw;
-}
-
-.mobile-menu div{
-  width: 10vw;
-}
-
-}
-@media screen and (max-width: 600px){
-
-footer p{
-  font-size: 4vw;
-}
-
-.img-redes{
-  height: 5vw;
-}
-
-
-
-}
 
 
 
@@ -151,40 +124,18 @@ header a{
 header nav {
   height: 7vh;
 }
-
 header{
   position: fixed;
   margin-top: -10vh;
   z-index: 999;
-  
+
 }
-
-
-
-.titulo{
-  margin-top: 5vh;
-  font-size: 6vw;
-}
-
-
 #c-one{
   margin-bottom: 15vh;
 }
-
-
 #div-form{
   display: none;
 }
-
-#icones-mobile{
-  margin-left: 15vw;
-}
-
-
-.div-cat{
-  margin-right: -15vw;
-}
-
 }
 
 
@@ -262,14 +213,6 @@ header a {
 }
 
 @media screen and (min-width:1250px) and (max-width:1880px){
-  footer{
-   
-    margin-top: 40vh;
-  }
-
-  .titulo{
-    margin-bottom: 15vh;
-  }
 
   header a {
     font-size: 1vw
@@ -285,14 +228,8 @@ header a {
     height: 14vh;
   }
 
-  footer{
-    margin-top: 70vh;
-  }
 
-  .titulo{
-    margin-bottom: 22vh;
-    font-size: 3.5vw;
-  }
+
 
 
 }
@@ -307,18 +244,9 @@ header a {
     color: white;
   }
 
-  .icons-agendar {
-    height: 17px;
-    margin-right: 10px;
-}
-
   #a-header{
     display: block;
     font-size: 4.5vw;
-  }
-
-  .div-cat{
-    margin-right: -10vw;
   }
 
 }
