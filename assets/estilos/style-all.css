@@ -238,11 +238,6 @@ header a {
     font-size: 18px;
 }
 
-#c-a{
-    display: flex;
-    justify-content: center;
-}
-
 
 @media (width < 1200px){
     .div-call{
@@ -271,6 +266,12 @@ header a {
 
 
 @media (width < 750px){
+
+    #c-a{
+        display: flex;
+        justify-content: center;
+    }
+
     #call{
         flex-direction: column;
     }
@@ -313,6 +314,7 @@ header a {
 
     #h2-call{
         font-size: 16px;
+        width: 99vw;
     }
 
     #h1-call{
