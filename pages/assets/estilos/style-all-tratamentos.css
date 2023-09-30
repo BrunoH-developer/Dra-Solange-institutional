@@ -32,7 +32,7 @@ a:hover {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: 500;
-    height: 2.5vw;
+    height: 3.3vw;
     padding-bottom: 1vh;
     
 }
@@ -139,7 +139,7 @@ main{
 }
 
 .titulos{
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 200;
     text-align: center;
     color: var(--rose);
@@ -168,6 +168,15 @@ main{
 @media (width < 350px){
     .titulos{
         font-size: 23px;
+    }
+}
+
+@media (width < 400px){
+    .titulos{
+        font-size: 20px;
+    }
+    main{
+        margin-top: 5vh;
     }
 }
 
@@ -285,17 +294,32 @@ main{
     }
 
     .logo{
-       height: 3.8vw; 
+       height: 4vw; 
     }
 }
 
+@media (width < 780px){
+    main{
+        margin-top: 10vh;
+    }
 
+    .nav-list.active{
+        width: 90vw;
+        min-height: 70vh;
+    }
+
+    .nav-list a{
+        font-size: 16px;
+    }
+    #h-agende{
+        font-size: 13px;
+    }
+
+}
 
 @media (width < 900px){
 
-.logo{
-    height: 4vh;
-}
+
 
 .container-tratamentos{
    flex-direction: column;
@@ -312,7 +336,22 @@ main{
 }
 }
 
+@media (width < 999px){
+    .logo{
+        height: 5vw;
+    }
+}
+@media (width < 700px){
+.logo{
+    height: 9vw;
+}
+}
+
 @media (width < 500px){
+
+.logo{
+    height: 11vw;
+}    
 .img-tratamentos{
     width: 70vw;
 }
@@ -335,8 +374,10 @@ main{
     padding: 10px;
 }
 .h-tratamentos {
-    font-size: 13px;
+    font-size: 12px;
 }
+
+
 }
 
 @media (width < 350px){
@@ -364,4 +405,16 @@ main{
 .p-tratamentos{
     padding: 0px;
 }
+
+#a-agende{
+    display: none;
 }
+
+.logo{
+    height: 13vw;
+}
+
+}
+
+
+
