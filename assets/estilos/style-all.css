@@ -277,7 +277,8 @@ header a {
     }
 
     .div-call{
-        width: 80vw;
+        width: 95vw;
+        margin-left: 5px;
     }
 
     #img-call{
