@@ -217,9 +217,9 @@ header a {
     font-size: 18px;
     font-weight: normal;
     margin-bottom: -10px;
-    line-height: 20px;
-    width: auto;
-    text-align: auto;
+    line-height: 25px;
+   text-align: left;
+    
 }
 
 #h2-call strong{
@@ -237,6 +237,12 @@ header a {
     color: var(--cinza);
     font-size: 18px;
 }
+
+#c-a{
+    display: flex;
+    justify-content: center;
+}
+
 
 @media (width < 1200px){
     .div-call{
@@ -274,7 +280,7 @@ header a {
     }
 
     #img-call{
-        height: 35vh;
+        height: 51vh;
     }
 
     #a-agende{
@@ -643,7 +649,7 @@ header a {
 
 @media (width < 350px){
     #p-quest-agende{
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .icons-agendar{
