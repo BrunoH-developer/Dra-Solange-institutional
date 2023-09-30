@@ -816,6 +816,50 @@ header a {
     outline: none;
     color: white;
 }
+@media (width < 999px){
+   .div-consulta {
+    margin: 20px;
+    } 
+    .dados{
+        width: 260px;
+    }
+    #mapa{
+        width: 370px;
+    }
+.swiper{
+   
+    overflow: none;
+}
+}
+@media (width < 750px){
+    #container-consulta{
+        flex-direction: column;
+    }
+
+    .dados{
+        width: 360px;
+    }
+
+    .div-consulta {
+        margin: 5px;
+    } 
+}
+
+@media (width < 390px){
+    .dados{
+        width: 70vw;
+    }
+    #mapa{
+        width: 80vw;
+        height: 60vw;
+    }  
+}
+
+
+
+
+
+    /*   avaliação   */
 
 .swiper{
     height: 500px;
@@ -834,9 +878,29 @@ header a {
 
 @media (max-width: 450px){
     .swiper{
+        height: 462px;
+    }
+    .img-slide{
+        height: 350px;
+    }
+}
+
+@media (max-width: 270px){  
+    .img-slide{
         height: 270px;
     }
 }
+
+@media (max-width: 220px){  
+    .img-slide{
+        height: 30vh;
+        width: 80vw;
+    }
+}
+
+
+
+
 
 .text-aval{
     text-align: center;
