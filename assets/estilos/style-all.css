@@ -727,6 +727,10 @@ header a {
         justify-content: center;
         align-items: center;
     }
+
+    .div-bio {
+        margin: 17px;
+    }
 }
 
 @media (width < 380px){
