@@ -60,14 +60,21 @@ header nav {
 .nav-list {
     list-style: none;
     display: flex;
-    
+    align-items: center;
     margin-top: 0px;
     border-bottom-left-radius: 10px;
 }
 
+.nav-list a{
+    font-size: 18px;
+    font-weight: normal;
+}
+
 .nav-list li {
     letter-spacing: 3px;
-    margin-left: 32px;
+    margin-left: 22px;
+    margin-right: 22px;
+    font-weight: normal;
 }
 
 .mobile-menu {
@@ -75,7 +82,7 @@ header nav {
     cursor: pointer;
 }
 
-.mobile-menu div {
+.mobile-menu div { 
     width: 27px;
     height: 2px;
     background:  var(--rose);
@@ -111,7 +118,7 @@ header a {
 #h-agende{
     color: white;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 15px;
     margin-left: 5px;
 }
 
@@ -132,7 +139,7 @@ main{
 }
 
 .titulos{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 200;
     text-align: center;
     color: var(--rose);
@@ -145,7 +152,7 @@ main{
 
 @media (width < 999px){
     .titulos{
-        font-size: 33px;
+        font-size: 27px;
     }
 
     .sub-titulos{
@@ -155,9 +162,7 @@ main{
 }
 
 @media (width < 750px){
-    .titulos{
-        font-size: 30px;
-    }
+   
 }
 
 @media (width < 350px){
@@ -198,7 +203,7 @@ main{
 }
 
 .div-tratamentos:hover > .a-tratamentos{
-    font-weight: bold;
+    font-weight: normal;
 }
 
 
@@ -220,20 +225,20 @@ main{
 .h-tratamentos{
     color: rosybrown;
     margin-bottom: 20px;
-    font-size: 1.2em;
+    font-size: 16px;
 
 }
 
 .p-tratamentos{
     color: var(--cinza);
-    font-size: 1em;
+    font-size: 15px;
     
 }
 
 .a-tratamentos{
     color: rosybrown;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 17px;
 }
 
 #tratamentos{
@@ -244,15 +249,15 @@ main{
 
 @media (width < 1800px){
     .div-tratamentos{
-        width: 18vw;
+        width: 20vw;
     }
 
     .img-tratamentos{
-        width: 18vw;
+        width: 20vw;
     }
 
     .p-tratamentos{
-        font-size: 1em;
+        font-size: 14px;
     }
 
     
@@ -263,7 +268,7 @@ main{
 }
 @media (width < 1350px){
     .h-tratamentos{
-        font-size: 1em;
+        font-size: 16px;
 
 }
 
@@ -323,8 +328,15 @@ main{
 
 @media (width < 370px){
 .p-tratamentos{
-    font-size: 0.9em;
+    font-size: 14px;
 }  
+.texts-tratamentos {
+    
+    padding: 10px;
+}
+.h-tratamentos {
+    font-size: 13px;
+}
 }
 
 @media (width < 350px){
@@ -350,6 +362,6 @@ main{
 }   
 
 .p-tratamentos{
-    padding: 5px;
+    padding: 0px;
 }
 }
