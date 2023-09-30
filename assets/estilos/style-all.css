@@ -305,12 +305,11 @@ header a {
         justify-content: left;
         align-items: left;
         flex-direction: column;
-        width: 90vw;
+        width: 99vw;
     }
 
     #div-agendar-call{
         width: 250px;
-        margin-top: 3px;
     }
 
     #h2-call{
@@ -322,9 +321,6 @@ header a {
         font-size: 25px;
     }
 
-    .t{
-        display: none;
-    }
 
     
     
