@@ -310,6 +310,7 @@ header a {
 
     #div-agendar-call{
         width: 250px;
+        margin-top: 3px;
     }
 
     #h2-call{
@@ -320,6 +321,12 @@ header a {
     #h1-call{
         font-size: 25px;
     }
+
+    .t{
+        display: none;
+    }
+
+    
     
 }
 
