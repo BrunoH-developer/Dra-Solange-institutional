@@ -218,7 +218,7 @@ header{
 
 @media screen and (min-width:120px) and (max-width:510px){
   .nav-list {
-    width: 70vw;
+    width: 85vw;
   }
 
   #a-header{
@@ -226,7 +226,5 @@ header{
     font-size: 4.5vw;
   }
 
-  .div-cat{
-    margin-right: -10vw;
-  }
+
 }

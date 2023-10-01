@@ -228,7 +228,7 @@ header a {
 
 @media (width < 999px){
     .titulos{
-        font-size: 33px;
+        font-size: 28px;
     }
 
     .sub-titulos{
@@ -239,7 +239,7 @@ header a {
 
 @media (width < 750px){
     .titulos{
-        font-size: 30px;
+        font-size: 27px;
     }
 }
 
@@ -721,7 +721,7 @@ header a {
 
 #p-quest-agende{
     color: var(--rose);
-    font-size: 17px;
+    font-size: 14px;
     font-weight: normal;
     letter-spacing: 2px;
     font-weight: bold;
