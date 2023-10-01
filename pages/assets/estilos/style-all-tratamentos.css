@@ -12,15 +12,10 @@
     --cinza: #727272; 
 }
 
-a[href^="tel"], 
-a[href^="mailto"], 
-a[href^="http://maps.google.com/maps"], 
-a[href^="https://maps.google.com/maps"] 
-{
-    text-decoration: none !important; 
-    color: inherit !important; 
+a[href^="tel"] {
+    color: #ffffff !important;
+    text-decoration: none; /* Remova sublinhado, se desejado */
 }
-
 
 body{
     background-color: var(--branco-body);
