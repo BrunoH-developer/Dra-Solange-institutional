@@ -56,7 +56,6 @@ header nav {
     height: 9vh;
     position: fixed;
     width: 100vw;
-    border-bottom: solid 2px var(--rose);
     padding-top: 1vh;
     position: fixed;
     z-index: 999;
