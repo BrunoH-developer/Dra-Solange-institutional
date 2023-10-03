@@ -5,17 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dra. Solange Maria - Sol Care Estética Avançada - Bela Vista, São Paulo</title>
-    <link rel="stylesheet" href="assets/estilos/style-all.css" media="all">
-    <link rel="stylesheet" href="assets/estilos/media-query.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="../assets/estilos/contato.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../favicon-16x16.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+    
 </head>
 <body>
     
     <header>
         <nav>
-            <a id="logo" href="../index.html"><img class="logo" src="assets/imagens/ass.png" alt=""></a>
+            <a id="logo" href="../index.html"><img class="logo" src="../assets/imagens/ass.png" alt=""></a>
             <div class="mobile-menu">
                 <div class="line1"></div>
                 <div class="line2"></div>
@@ -26,14 +32,56 @@
                 <li><a href="index.html">Início</a></li>
                 <li><a href="pages/sobre.html">Sobre</a></li>
                 <li><a href="pages/contato.html">Contato</a></li>
-                <li><a><div id="a-agende"><img class="icons-agendar" src="assets/imagens/re-work-index/calendario-icon-white.png" alt=""><h1 id="h-agende">agende seu horário</h1></div></a></li></a></li>
+                <li><a><div id="a-agende"><img class="icons-agendar" src="../assets/imagens/re-work-index/calendario-icon-white.png" alt=""><h1 id="h-agende">agende seu horário</h1></div></a></li></a></li>
                
             </ul>
         </nav>
     </header>
 
     <main>
+        <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <h1 class="titulos">Contato</h1>
+            <p class="sub-titulos">Entre em contato com a nossa equipe</p>
+        </div>
+
+        <section>
+            <div id="container-contact">
+                <div  class="div-contact">
+                    <h3 class="sub-titulos">Envie uma mensagem:</h3>
+                    <form id="forms" action="https://formsubmit.co/brunostwitch@gmail.com" method="POST">
+                        <div id="forms">
         
+                            <input class="dados" type="text" name="name" required placeholder="Nome">
+                            <input class="dados" type="email" name="email" required placeholder="Email">
+                            <input class="dados" type="tel" name="tel" required placeholder="Telefone">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input class="dados  msg" type="text" name="msg" placeholder="Sua mensagem">
+                            <button id="submit"  type="submit">Confirmar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="div-contact">
+                    <div>
+                        <h3 class="sub-titulos">Formas de Contato:</h3>  
+                    </div>
+
+                    <div id="container-formas">
+                        <div class="div-formas">
+                            <a class="fa-brands fa-whatsapp"></a> 
+                            <a class="text-formas" target="_blank" href="https://wa.me/5511993313592?text=Ol%C3%A1,%20Gostaria%20de%20marcar%20uma%20consulta!">(11) 99331-3592</a>
+                        </div>
+                        <div class="div-formas">
+                            <a class="fa-brands fa-instagram"></a> 
+                            <a class="text-formas" target="_blank" href="https://www.instagram.com/drasol_farmaceuticaesteta/">@drasol_farmaceuticaesteta</a>
+                        </div>
+                        <div class="div-formas">
+                            <a class="fa-brands fa-google"></a>
+                            <a href="mailto:contato@drasolangeesteticaavancada.com.br" class="text-formas" target="_blank">Envie um email</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
 
@@ -45,9 +93,9 @@
                 <p class="numbers">Cep: 01332-000</p>
                 <p>Bela Vista, São Paulo</p>
                 <p id="c-cat"><strong>Contato:</strong></p>
-                <div class="icones tell"><img src="assets/imagens/tell.png" alt="icone de telefone"> <p class="numbers">(11) 99331-3592</p></div>
-                <div class="icones"><img src="assets/imagens/e-mail.png" alt="icone de email"><p>solcare@contato.com.br</p></div>
-                <div class="icones"><img id="relogio" src="assets/imagens/relogio.png" alt="icone de relogio"> <p>Atendimento: De 08h às <br> 20h (Seg. a sex.)</p></div>
+                <div class="icones tell"><img src="../assets/imagens/tell.png" alt="icone de telefone"> <p class="numbers">(11) 99331-3592</p></div>
+                <div class="icones"><img src="../assets/imagens/e-mail.png" alt="icone de email"><p>solcare@contato.com.br</p></div>
+                <div class="icones"><img id="relogio" src="../assets/imagens/relogio.png" alt="icone de relogio"> <p>Atendimento: De 08h às <br> 20h (Seg. a sex.)</p></div>
             </div>
             <div id="div-form" class="div-cat">
                 <p id="p-form"><strong>Duvidas:</strong></p>
@@ -63,9 +111,9 @@
                 </form>
             </div>
             <div id="icones-mobile">
-                <div class="d-icones"><a href="https://www.instagram.com/drasol_farmaceuticaesteta/"><img class="img-redes" src="assets/imagens/instagram.png" alt=""></a></div>
-                <div class="d-icones"><a href="https://wa.me/5511993313592?text=Ol%C3%A1,%20Gostaria%20de%20marcar%20uma%20consulta!"><img class="img-redes" src="assets/imagens/whatsapp.png" alt=""></a></div>
-                <div class="d-icones" ><a href="https://pt-br.facebook.com/solcare.estetica/"><img class="img-redes" src="assets/imagens/facebook.png" alt=""></a></div>
+                <div class="d-icones"><a target="_blank" href="https://www.instagram.com/drasol_farmaceuticaesteta/"><img class="img-redes" src="../assets/imagens/instagram.png" alt=""></a></div>
+                <div class="d-icones"><a target="_blank" href="https://wa.me/5511993313592?text=Ol%C3%A1,%20Gostaria%20de%20marcar%20uma%20consulta!"><img class="img-redes" src="../assets/imagens/whatsapp.png" alt=""></a></div>
+                <div class="d-icones" ><a target="_blank" href="https://pt-br.facebook.com/solcare.estetica/"><img class="img-redes" src="../assets/imagens/facebook.png" alt=""></a></div>
             </div>
         
         </footer>
@@ -83,9 +131,9 @@
 
 
 
-<script src="assets/scripts/all.js"></script>
-<script src="assets/scripts/Animate-transition.js"></script>
-<script src="assets/scripts/Mobile-navbar.js"></script>
+<script src="../assets/scripts/all.js"></script>
+<script src="../assets/scripts/Animate-transition.js"></script>
+<script src="../assets/scripts/Mobile-navbar.js"></script>
     
 </body>
 </html>
