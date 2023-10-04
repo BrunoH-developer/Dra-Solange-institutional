@@ -449,12 +449,14 @@ main{
 @media (width < 460px){
     #sobre-p{
         padding: 30px;  
+        font-size: 17px;
     }
 }
 
 @media (width < 360px){
     #sobre-p{
         padding: 20px;  
+        font-size: 15px;
     }
 }
 @media (width < 280px){
