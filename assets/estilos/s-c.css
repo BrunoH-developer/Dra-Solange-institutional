@@ -263,7 +263,7 @@ header a {
 
 
 
-
+/*   Contato    */
 
 #forms{
     display: flex;
@@ -403,7 +403,7 @@ main{
     }
 
     .logo{
-        height: 5vh;
+        height: 4vh;
     }
 }
 
@@ -464,6 +464,19 @@ main{
         padding: 10px;  
     }
 }
+
+/*   Contato end   */
+
+/*   sobre    */
+
+.invisible{
+    color: var(--branco-body);
+}
+
+
+/*   sobre end   */
+
+
 
 
 
