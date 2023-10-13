@@ -574,7 +574,11 @@ footer{
         margin-right: 10vw;
     } 
 }
-
+@media (width > 300px){
+    .mail-br{
+     display: none;
+    } 
+}
 
 
 

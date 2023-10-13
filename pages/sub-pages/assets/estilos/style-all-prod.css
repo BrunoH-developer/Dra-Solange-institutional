@@ -635,5 +635,10 @@ footer{
     color: white;
     font-size: 0.8em;
 }
+@media (width > 300px){
+    .mail-br{
+     display: none;
+    } 
+}
 
 

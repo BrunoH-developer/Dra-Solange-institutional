@@ -47,6 +47,8 @@ a:hover {
 
 header{
     margin-top: -10vh;
+    width: 100vw;
+    
 }
 
 header nav {
@@ -292,7 +294,7 @@ header a {
 }
 
 .div-call{
-    width: 36vw;
+    width: 34vw;
 }
 
 #div-agendar-call{
@@ -314,6 +316,7 @@ header a {
 
 #img-call{
     height: 52vh;
+    width: 52vh;
     margin-top: 35px;
 }
 
@@ -362,6 +365,7 @@ header a {
 
     #img-call{
         height: 48vh;
+        width: 48vh;
     }
 
     #h1-call{
@@ -399,6 +403,7 @@ header a {
 
     #img-call{
         height: 51vh;
+        width: 51vh;
     }
 
    
@@ -438,6 +443,11 @@ header a {
 
     #h1-call{
         font-size: 25px;
+    }
+
+    #img-call{
+        height: 90vw;
+        width: 90vw;
     }
 
 
@@ -1182,6 +1192,11 @@ footer{
     }
 }
 
+@media (width > 300px){
+   .mail-br{
+    display: none;
+   } 
+}
 @media (max-width: 500px){
     .div-cat{
         width: 80vw;
@@ -1202,6 +1217,7 @@ footer{
     .d-icones{
         margin-left: 10vw;
         margin-right: 10vw;
+    
     } 
 }
 
@@ -1213,4 +1229,3 @@ a[href^="https://maps.google.com/maps"]
     text-decoration: none !important; 
     color: inherit !important; 
 }
-
