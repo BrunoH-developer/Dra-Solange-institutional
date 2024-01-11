@@ -1,2 +1,1 @@
-# solcare-lp
- 
+Explore the codebase of Dr. Solange Maria's Aesthetics website, developed using HTML, CSS, and Javascript. This repository contains over 45 pages, each contributing to a seamless online experience for visitors.
