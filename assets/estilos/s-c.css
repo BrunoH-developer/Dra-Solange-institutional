@@ -646,3 +646,14 @@ a[href^="https://maps.google.com/maps"]
     text-decoration: none !important; 
     color: inherit !important; 
 }
+
+article{
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sobre-p{
+    width: 72vw;
+}
